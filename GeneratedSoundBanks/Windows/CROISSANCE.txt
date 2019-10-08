@@ -1,7 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
-	202194903	Music_Play			\Terry\Music_Play	
-	2925976780	Test_Git			\Thomas\Test_Git	
+	41896295	Music_Kill_Coral			\Terry\Music_Kill_Coral	
+	2990463502	Music_Contemplation			\Terry\Music_Contemplation	
+	3725903807	Music_Start			\Terry\Music_Start	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2996874600	Music_ST			\Default Work Unit\Music_ST	
+
+State	ID	Name	State Group			Notes
+	0	None	Music_ST			
+	981024095	Kill_Coral	Music_ST			
+	3810549462	Contemplation	Music_ST			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	295329745	Test_Git	C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\.cache\Windows\SFX\Future Factory Full Loop Roomtone_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test_Git		3437356
+	924608942	Cymbal	C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\.cache\Windows\SFX\MACK Effect Reverse Cymbal_C42B8C3C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Transition\Cymbal\Cymbal		1601598
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	682673190	Music_Croissance_A	C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\.cache\Windows\SFX\Music_Croissance_A_C42B8C3C.wem	682673190.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Observation\Music_Croissance_A\Music_Croissance_A	
+	814515805	Music_Croissance_C	C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\.cache\Windows\SFX\Music_Croissance_C_C42B8C3C.wem	814515805.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Observation\Music_Croissance_C\Music_Croissance_C	
+	884316753	Music_Croissance_D	C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\.cache\Windows\SFX\Music_Croissance_D_C42B8C3C.wem	884316753.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Observation\Music_Croissance_D\Music_Croissance_D	
+	937294050	Music_Croissance_Kill_Coral	C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\.cache\Windows\SFX\Music_Croissance_Kill_Coral_C42B8C3C.wem	937294050.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Kill_Coral\Music_Croissance_Kill_Coral\Music_Croissance_Kill_Coral	
+	1057130795	Music_Croissance_B	C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\.cache\Windows\SFX\Music_Croissance_B_C42B8C3C.wem	1057130795.wem	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Observation\Music_Croissance_B\Music_Croissance_B	
 

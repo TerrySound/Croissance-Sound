@@ -27,16 +27,7 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="Wwise_Meter_(Custom)" ID="{B7787391-CC2D-4E26-8980-C7B1B0ADF5EC}" ShortID="412055531" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">											<PluginData>
-	<GameParameter Name="RTPC_SideChain" ID="{AAF9EF2E-D756-4E9C-8D30-2D982C1A8EC4}"/>
-</PluginData>
-										</Effect>
-									</Custom>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 						</Bus>
 						<Bus Name="Music" ID="{32CC7183-0EA4-4918-9261-AD1A157A525D}">
 							<PropertyList>
@@ -44,34 +35,6 @@
 									<ValueList>
 										<Value>12546</Value>
 									</ValueList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<RTPCList>
-										<RTPC Name="" ID="{32D1B747-D1A6-423B-9403-CD1C6306635B}" ShortID="17878046">
-											<ReferenceList>
-												<Reference Name="ControlInput">
-													<ObjectRef Name="RTPC_SideChain" ID="{AAF9EF2E-D756-4E9C-8D30-2D982C1A8EC4}" WorkUnitID="{90C4FF37-ACDD-4BEF-B61A-9684D151B3F3}"/>
-												</Reference>
-											</ReferenceList>
-											<Curve Name="" ID="{3E9EF55A-95E3-41F0-95D1-45BC1E7DD602}">
-												<PropertyList>
-													<Property Name="Flags" Type="int32" Value="3"/>
-												</PropertyList>
-												<PointList>
-													<Point>
-														<XPos>0</XPos>
-														<YPos>0</YPos>
-														<Flags>5</Flags>
-													</Point>
-													<Point>
-														<XPos>100</XPos>
-														<YPos>-6</YPos>
-														<Flags>37</Flags>
-													</Point>
-												</PointList>
-											</Curve>
-										</RTPC>
-									</RTPCList>
 								</Property>
 							</PropertyList>
 						</Bus>

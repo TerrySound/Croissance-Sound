@@ -8,7 +8,28 @@
 		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="682673190" Language="SFX">
+			<ShortName>Music_Croissance_A.wav</ShortName>
+			<Path>SFX\Music_Croissance_A_C42B8C3C.wem</Path>
+		</File>
+		<File Id="814515805" Language="SFX">
+			<ShortName>Music_Croissance_C.wav</ShortName>
+			<Path>SFX\Music_Croissance_C_C42B8C3C.wem</Path>
+		</File>
+		<File Id="884316753" Language="SFX">
+			<ShortName>Music_Croissance_D.wav</ShortName>
+			<Path>SFX\Music_Croissance_D_C42B8C3C.wem</Path>
+		</File>
+		<File Id="937294050" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_C42B8C3C.wem</Path>
+		</File>
+		<File Id="1057130795" Language="SFX">
+			<ShortName>Music_Croissance_B.wav</ShortName>
+			<Path>SFX\Music_Croissance_B_C42B8C3C.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
@@ -21,13 +42,21 @@
 			<ShortName>CROISSANCE</ShortName>
 			<Path>CROISSANCE.bnk</Path>
 			<IncludedEvents>
-				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Terry\Music_Play" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2925976780" Name="Test_Git" ObjectPath="\Events\Thomas\Test_Git" DurationType="OneShot" DurationMin="60.000000" DurationMax="60.000000"/>
+				<Event Id="2990463502" Name="Music_Contemplation" ObjectPath="\Events\Terry\Music_Contemplation" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="41896295" Name="Music_Kill_Coral" ObjectPath="\Events\Terry\Music_Kill_Coral" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Terry\Music_Start" DurationType="Infinite"/>
 			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="682673190"/>
+				<File Id="814515805"/>
+				<File Id="884316753"/>
+				<File Id="937294050"/>
+				<File Id="1057130795"/>
+			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="295329745" Language="SFX">
-					<ShortName>Future Factory Full Loop Roomtone.wav</ShortName>
-					<Path>SFX\Future Factory Full Loop Roomtone_66C02B12.wem</Path>
+				<File Id="924608942" Language="SFX">
+					<ShortName>MACK Effect Reverse Cymbal.wav</ShortName>
+					<Path>SFX\MACK Effect Reverse Cymbal_C42B8C3C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
