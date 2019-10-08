@@ -3,7 +3,41 @@
 	<Events>
 		<WorkUnit Name="Terry" ID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Music_Play" ID="{7AF99ACA-0721-4E8D-B756-DA2909427ED5}"/>
+				<Event Name="Music_Play" ID="{7AF99ACA-0721-4E8D-B756-DA2909427ED5}">
+					<ChildrenList>
+						<Action Name="" ID="{3CF3BA3E-AC45-4A03-B949-36F17BBB9911}" ShortID="824437563">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Croissance" ID="{10F9652E-AE87-4A1B-A0A2-82C9CACD7893}" WorkUnitID="{5459A4EC-625D-47D4-90F5-62EB236408D7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{14376E54-124D-440B-9282-0F001C4E694D}" ShortID="50017374">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Observation" ID="{0434C8CF-3D12-4862-9148-21186F9FA54E}" WorkUnitID="{B491A2CE-5ACB-4609-8918-FB9210B4D19F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Kill" ID="{14B7611E-D777-4470-8CDC-D71C4256D077}">
+					<ChildrenList>
+						<Action Name="" ID="{ACC4BF61-2FF1-4BDF-8C83-A7DFA1A3BC73}" ShortID="253548022">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Kill_Coral" ID="{9267528F-8FC2-422F-92CE-1956E580DB4F}" WorkUnitID="{B491A2CE-5ACB-4609-8918-FB9210B4D19F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
