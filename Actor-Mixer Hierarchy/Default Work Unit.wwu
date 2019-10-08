@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Test_Git" ID="{1F88F47B-21DB-4DCD-B85B-4535CCA8580B}" ShortID="147821641">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Future Factory Full Loop Roomtone" ID="{68006494-B20C-4220-A2BB-BFAB66B99713}" ShortID="295329745">
+							<Language>SFX</Language>
+							<AudioFile>Future Factory Full Loop Roomtone.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Future Factory Full Loop Roomtone" ID="{68006494-B20C-4220-A2BB-BFAB66B99713}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
