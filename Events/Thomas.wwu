@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{87DB8531-9E77-40CA-8057-210276FA872C}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Thomas" ID="{87DB8531-9E77-40CA-8057-210276FA872C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test_Git" ID="{35848B0F-8F97-4235-BBAD-9019AD01B504}">
+					<ChildrenList>
+						<Action Name="" ID="{39848FF3-6E8D-4842-9778-27FE23C9C0F5}" ShortID="447193527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test_Git" ID="{1F88F47B-21DB-4DCD-B85B-4535CCA8580B}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -21,7 +21,8 @@
 			<ShortName>CROISSANCE</ShortName>
 			<Path>CROISSANCE.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2925976780" Name="Test_Git" ObjectPath="\Events\Default Work Unit\Test_Git" DurationType="OneShot" DurationMin="60.000000" DurationMax="60.000000"/>
+				<Event Id="202194903" Name="Music_Play" ObjectPath="\Events\Terry\Music_Play" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2925976780" Name="Test_Git" ObjectPath="\Events\Thomas\Test_Git" DurationType="OneShot" DurationMin="60.000000" DurationMax="60.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="295329745" Language="SFX">
