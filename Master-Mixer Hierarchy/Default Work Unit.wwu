@@ -27,7 +27,6 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
-							<ReferenceList/>
 						</Bus>
 						<Bus Name="Music" ID="{32CC7183-0EA4-4918-9261-AD1A157A525D}">
 							<PropertyList>

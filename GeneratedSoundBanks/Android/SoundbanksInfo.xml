@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="43893638" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_C_Pad_Metallic.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_C_Pad_Metallic_C42B8C3C.wem</Path>
+		</File>
+		<File Id="127708902" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_C_Mallet_Flux.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_C_Mallet_Flux_C42B8C3C.wem</Path>
+		</File>
+		<File Id="171089575" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_A_Water_Pad.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_A_Water_Pad_C42B8C3C.wem</Path>
+		</File>
+		<File Id="225181845" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_B_Pad_Metallic.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_B_Pad_Metallic_C42B8C3C.wem</Path>
+		</File>
+		<File Id="254715500" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_D_Sonosphere.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_D_Sonosphere_C42B8C3C.wem</Path>
+		</File>
+		<File Id="358762917" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_C_Water_Pad.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_C_Water_Pad_C42B8C3C.wem</Path>
+		</File>
+		<File Id="421481085" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_C.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_C_C42B8C3C.wem</Path>
+		</File>
+		<File Id="473964546" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_C_Sonosphere.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_C_Sonosphere_C42B8C3C.wem</Path>
+		</File>
+		<File Id="659450201" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_A.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_A_C42B8C3C.wem</Path>
+		</File>
+		<File Id="661062577" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_A_Sonosphère.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_A_Sonosphère_C42B8C3C.wem</Path>
+		</File>
+		<File Id="825850638" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_B.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_B_C42B8C3C.wem</Path>
+		</File>
+		<File Id="827508458" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_D_Mallet_Flux.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_D_Mallet_Flux_C42B8C3C.wem</Path>
+		</File>
+		<File Id="841238621" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_B_Water_Pad.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_B_Water_Pad_C42B8C3C.wem</Path>
+		</File>
+		<File Id="874713701" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_A_Mallet_Flux.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_A_Mallet_Flux_C42B8C3C.wem</Path>
+		</File>
+		<File Id="896771487" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_B_Sonosphere.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_B_Sonosphere_C42B8C3C.wem</Path>
+		</File>
+		<File Id="938987705" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_A_Pad_Metallic.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_A_Pad_Metallic_C42B8C3C.wem</Path>
+		</File>
+		<File Id="950671692" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_B_Mallet_Flux.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_B_Mallet_Flux_C42B8C3C.wem</Path>
+		</File>
+		<File Id="987465526" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_D_Water_Pad.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_D_Water_Pad_C42B8C3C.wem</Path>
+		</File>
+		<File Id="1047806511" Language="SFX">
+			<ShortName>Music_Croissance_Kill_Coral_D_Pad_Metallic.wav</ShortName>
+			<Path>SFX\Music_Croissance_Kill_Coral_D_Pad_Metallic_C42B8C3C.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2770033377" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\CROISSANCE</ObjectPath>
+			<ShortName>CROISSANCE</ShortName>
+			<Path>CROISSANCE.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2990463502" Name="Music_Contemplation" ObjectPath="\Events\Terry\Music_Contemplation" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1507659042" Name="Music_Degradation_0" ObjectPath="\Events\Terry\Music_Degradation_0" DurationType="OneShot" DurationMin="117.917175" DurationMax="196.512756"/>
+				<Event Id="1507659043" Name="Music_Degradation_1" ObjectPath="\Events\Terry\Music_Degradation_1" DurationType="OneShot" DurationMin="178.611969" DurationMax="257.670532"/>
+				<Event Id="1507659040" Name="Music_Degradation_2" ObjectPath="\Events\Terry\Music_Degradation_2" DurationType="OneShot" DurationMin="217.412201" DurationMax="305.840576"/>
+				<Event Id="1507659041" Name="Music_Degradation_3" ObjectPath="\Events\Terry\Music_Degradation_3" DurationType="OneShot" DurationMin="243.599869" DurationMax="360.678864"/>
+				<Event Id="1507659046" Name="Music_Degradation_4" ObjectPath="\Events\Terry\Music_Degradation_4" DurationType="OneShot" DurationMin="269.915527" DurationMax="439.977600"/>
+				<Event Id="41896295" Name="Music_Kill_Coral" ObjectPath="\Events\Terry\Music_Kill_Coral" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Terry\Music_Start" DurationType="Infinite"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="43893638"/>
+				<File Id="127708902"/>
+				<File Id="171089575"/>
+				<File Id="225181845"/>
+				<File Id="254715500"/>
+				<File Id="358762917"/>
+				<File Id="421481085"/>
+				<File Id="473964546"/>
+				<File Id="659450201"/>
+				<File Id="661062577"/>
+				<File Id="825850638"/>
+				<File Id="827508458"/>
+				<File Id="841238621"/>
+				<File Id="874713701"/>
+				<File Id="896771487"/>
+				<File Id="938987705"/>
+				<File Id="950671692"/>
+				<File Id="987465526"/>
+				<File Id="1047806511"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="6910802" Language="SFX">
+					<ShortName>Creature06.wav</ShortName>
+					<Path>SFX\Creature06_66C02B12.wem</Path>
+				</File>
+				<File Id="11833328" Language="SFX">
+					<ShortName>Creature20.wav</ShortName>
+					<Path>SFX\Creature20_66C02B12.wem</Path>
+				</File>
+				<File Id="17132226" Language="SFX">
+					<ShortName>Creature05.wav</ShortName>
+					<Path>SFX\Creature05_66C02B12.wem</Path>
+				</File>
+				<File Id="19272692" Language="SFX">
+					<ShortName>Creature02.wav</ShortName>
+					<Path>SFX\Creature02_66C02B12.wem</Path>
+				</File>
+				<File Id="31425165" Language="SFX">
+					<ShortName>Creature04.wav</ShortName>
+					<Path>SFX\Creature04_66C02B12.wem</Path>
+				</File>
+				<File Id="32203046" Language="SFX">
+					<ShortName>Creature15.wav</ShortName>
+					<Path>SFX\Creature15_66C02B12.wem</Path>
+				</File>
+				<File Id="35316299" Language="SFX">
+					<ShortName>Creature03.wav</ShortName>
+					<Path>SFX\Creature03_66C02B12.wem</Path>
+				</File>
+				<File Id="43368698" Language="SFX">
+					<ShortName>Creature08.wav</ShortName>
+					<Path>SFX\Creature08_66C02B12.wem</Path>
+				</File>
+				<File Id="44457320" Language="SFX">
+					<ShortName>Creature19.wav</ShortName>
+					<Path>SFX\Creature19_66C02B12.wem</Path>
+				</File>
+				<File Id="45685179" Language="SFX">
+					<ShortName>Creature17.wav</ShortName>
+					<Path>SFX\Creature17_66C02B12.wem</Path>
+				</File>
+				<File Id="61019103" Language="SFX">
+					<ShortName>Creature25.wav</ShortName>
+					<Path>SFX\Creature25_66C02B12.wem</Path>
+				</File>
+				<File Id="70382259" Language="SFX">
+					<ShortName>Creature18.wav</ShortName>
+					<Path>SFX\Creature18_66C02B12.wem</Path>
+				</File>
+				<File Id="93289959" Language="SFX">
+					<ShortName>WaterSwirl04.wav</ShortName>
+					<Path>SFX\WaterSwirl04_66C02B12.wem</Path>
+				</File>
+				<File Id="102242448" Language="SFX">
+					<ShortName>WaterSwirl03.wav</ShortName>
+					<Path>SFX\WaterSwirl03_66C02B12.wem</Path>
+				</File>
+				<File Id="102928723" Language="SFX">
+					<ShortName>Creature10.wav</ShortName>
+					<Path>SFX\Creature10_66C02B12.wem</Path>
+				</File>
+				<File Id="115743414" Language="SFX">
+					<ShortName>Creature14.wav</ShortName>
+					<Path>SFX\Creature14_66C02B12.wem</Path>
+				</File>
+				<File Id="153640727" Language="SFX">
+					<ShortName>Creature07.wav</ShortName>
+					<Path>SFX\Creature07_66C02B12.wem</Path>
+				</File>
+				<File Id="163329861" Language="SFX">
+					<ShortName>Creature12.wav</ShortName>
+					<Path>SFX\Creature12_66C02B12.wem</Path>
+				</File>
+				<File Id="167579905" Language="SFX">
+					<ShortName>WaterAMB02.wav</ShortName>
+					<Path>SFX\WaterAMB02_C42B8C3C.wem</Path>
+				</File>
+				<File Id="175690109" Language="SFX">
+					<ShortName>WaterSwirl01.wav</ShortName>
+					<Path>SFX\WaterSwirl01_66C02B12.wem</Path>
+				</File>
+				<File Id="179818253" Language="SFX">
+					<ShortName>Music_Croissance_Kill_Coral_C_Pan.wav</ShortName>
+					<Path>SFX\Music_Croissance_Kill_Coral_C_Pan_C42B8C3C.wem</Path>
+				</File>
+				<File Id="193523921" Language="SFX">
+					<ShortName>WaterAMB03.wav</ShortName>
+					<Path>SFX\WaterAMB03_C42B8C3C.wem</Path>
+				</File>
+				<File Id="193600240" Language="SFX">
+					<ShortName>Creature23.wav</ShortName>
+					<Path>SFX\Creature23_66C02B12.wem</Path>
+				</File>
+				<File Id="201250756" Language="SFX">
+					<ShortName>WaterSwirl08.wav</ShortName>
+					<Path>SFX\WaterSwirl08_66C02B12.wem</Path>
+				</File>
+				<File Id="221803753" Language="SFX">
+					<ShortName>Creature11.wav</ShortName>
+					<Path>SFX\Creature11_66C02B12.wem</Path>
+				</File>
+				<File Id="223573754" Language="SFX">
+					<ShortName>Creature24.wav</ShortName>
+					<Path>SFX\Creature24_66C02B12.wem</Path>
+				</File>
+				<File Id="234931101" Language="SFX">
+					<ShortName>WaterSwirl06.wav</ShortName>
+					<Path>SFX\WaterSwirl06_66C02B12.wem</Path>
+				</File>
+				<File Id="235101553" Language="SFX">
+					<ShortName>WaterSwirl02.wav</ShortName>
+					<Path>SFX\WaterSwirl02_66C02B12.wem</Path>
+				</File>
+				<File Id="246730409" Language="SFX">
+					<ShortName>WaterSwirl10.wav</ShortName>
+					<Path>SFX\WaterSwirl10_66C02B12.wem</Path>
+				</File>
+				<File Id="295667292" Language="SFX">
+					<ShortName>Creature22.wav</ShortName>
+					<Path>SFX\Creature22_66C02B12.wem</Path>
+				</File>
+				<File Id="311754721" Language="SFX">
+					<ShortName>Creature16.wav</ShortName>
+					<Path>SFX\Creature16_66C02B12.wem</Path>
+				</File>
+				<File Id="320042205" Language="SFX">
+					<ShortName>WaterSwirl09.wav</ShortName>
+					<Path>SFX\WaterSwirl09_66C02B12.wem</Path>
+				</File>
+				<File Id="373602566" Language="SFX">
+					<ShortName>WaterSwirl05.wav</ShortName>
+					<Path>SFX\WaterSwirl05_66C02B12.wem</Path>
+				</File>
+				<File Id="392764302" Language="SFX">
+					<ShortName>Creature09.wav</ShortName>
+					<Path>SFX\Creature09_66C02B12.wem</Path>
+				</File>
+				<File Id="457162703" Language="SFX">
+					<ShortName>Creature01.wav</ShortName>
+					<Path>SFX\Creature01_66C02B12.wem</Path>
+				</File>
+				<File Id="474455494" Language="SFX">
+					<ShortName>WaterSwirl07.wav</ShortName>
+					<Path>SFX\WaterSwirl07_66C02B12.wem</Path>
+				</File>
+				<File Id="542266255" Language="SFX">
+					<ShortName>Creature13.wav</ShortName>
+					<Path>SFX\Creature13_66C02B12.wem</Path>
+				</File>
+				<File Id="566520689" Language="SFX">
+					<ShortName>WaterAMB01.wav</ShortName>
+					<Path>SFX\WaterAMB01_C42B8C3C.wem</Path>
+				</File>
+				<File Id="592671692" Language="SFX">
+					<ShortName>Music_Croissance_Kill_Coral_B_Pan.wav</ShortName>
+					<Path>SFX\Music_Croissance_Kill_Coral_B_Pan_C42B8C3C.wem</Path>
+				</File>
+				<File Id="616645992" Language="SFX">
+					<ShortName>Creature21.wav</ShortName>
+					<Path>SFX\Creature21_66C02B12.wem</Path>
+				</File>
+				<File Id="738575729" Language="SFX">
+					<ShortName>Music_Croissance_Kill_Coral_D_Pan.wav</ShortName>
+					<Path>SFX\Music_Croissance_Kill_Coral_D_Pan_C42B8C3C.wem</Path>
+				</File>
+				<File Id="924608942" Language="SFX">
+					<ShortName>MACK Effect Reverse Cymbal.wav</ShortName>
+					<Path>SFX\MACK Effect Reverse Cymbal_C42B8C3C.wem</Path>
+				</File>
+				<File Id="1023224694" Language="SFX">
+					<ShortName>Music_Croissance_Kill_Coral_A_Pan.wav</ShortName>
+					<Path>SFX\Music_Croissance_Kill_Coral_A_Pan_C42B8C3C.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
