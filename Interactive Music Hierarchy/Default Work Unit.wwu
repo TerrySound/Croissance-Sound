@@ -24,7 +24,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1655,6 +1655,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Music_Kill_Coral" ID="{B599EA39-40EE-4D01-9243-6E89EC613085}" ShortID="839663539">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
@@ -1988,6 +1995,11 @@
 								<MusicSegment Name="Cymbal" ID="{5DC5F2EB-C07B-4180-B1CB-CFA3B0F91513}" ShortID="943810722">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="39313.2452574526"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2002,7 +2014,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-10</Value>
+														<Value>-15</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
