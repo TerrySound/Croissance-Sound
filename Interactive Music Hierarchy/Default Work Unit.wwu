@@ -39,7 +39,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_Croissance_A" ID="{3FF2DBF1-7E2F-40F9-AC88-FC597AFE2891}" ShortID="152195016">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="80060.6673407482"/>
+										<Property Name="EndPosition" Type="Real64" Value="82000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -50,27 +50,61 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Music_Croissance_A" ID="{A3063A5B-E36E-4B42-A6F8-8A8F989A2C62}" ShortID="442296099">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_A_2_Mallet_Flux" ID="{5EB5C7EE-57B4-4690-BD78-FD736ACEB62D}" ShortID="1053940965">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Music_Croissance_A" ID="{4FA19E71-11D7-4203-B3CA-65074CC4D124}" ShortID="682673190">
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_A_Mallet_Flux" ID="{C986F636-D8D2-4323-A43D-EFAC5AC0E623}" ShortID="874713701">
 													<Language>SFX</Language>
-													<AudioFile>Music_Croissance_A.wav</AudioFile>
+													<AudioFile>Music_Croissance_Kill_Coral_A_Mallet_Flux.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{401573F7-329F-413F-B483-8BE9634EF1AC}" ShortID="1021865501">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{6F362DD6-BCAC-441E-BE34-065A5B8C3016}" ShortID="825599713">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{515002E3-0E7D-4B27-A964-1142F2664E30}" ShortID="79749089"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{830CDF9A-12EF-4EAA-B0EE-DB6366F8D26F}" ShortID="500787572">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{D621A732-030C-49A4-9636-A9E4E8F4B2CA}" ShortID="165874977"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{22D7AB65-6883-4EE9-90DF-8B594122A073}">
+												<MusicTransition Name="Root" ID="{EC45DF01-B5BF-4A47-A47F-F7C1D2F9B68C}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -78,75 +112,303 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{13519864-503C-4F35-BDF4-829624687F22}">
+												<MusicTrackSequence Name="" ID="{44146216-4E6D-4C64-8FE0-3095ECFBEBF3}">
 													<ClipList>
-														<MusicClip Name="Music_Croissance_A" ID="{CD22120B-6E74-4A37-A3A0-0BCA82231F10}">
+														<MusicClip Name="Music_Croissance_Kill_Coral_A_Mallet_Flux" ID="{BA9CB8C1-6742-438E-9561-7513A9844B0C}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="3292.21435793731"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="57688.5743174925"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="2693.62992922144"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="5836.19817997977"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="Music_Croissance_A" ID="{4FA19E71-11D7-4203-B3CA-65074CC4D124}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{494458FB-41BA-428A-B662-5D4BBD6F748C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.29221</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>57.68857</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{BBC2957A-BE99-43B7-88CD-8FCB96E5077C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.29221</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>57.68857</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{B071B41B-816F-412E-8D0C-9557D689626C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.29221</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>57.68857</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Mallet_Flux" ID="{C986F636-D8D2-4323-A43D-EFAC5AC0E623}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_A_3_Pad_Metallic" ID="{B5B79CA8-21C2-4E34-895C-F5E2BCC2D4FD}" ShortID="290380164">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_A_Pad_Metallic" ID="{5BC0C1DF-27D8-447A-A368-92BC78EBB573}" ShortID="938987705">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_A_Pad_Metallic.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{C425F5A3-9DAE-4803-B5F7-AE07ECB05B1B}" ShortID="1040676666"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{EAD9DFB4-5D87-494D-9B81-F12F2BED2E8A}" ShortID="615373192">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{47FE0C37-7E02-48D1-8CE5-02680EA2E09E}" ShortID="36162474"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{BC87E85E-DF6E-4725-990A-DE9B264CB43E}" ShortID="886692017">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{6FFFE863-B028-4882-87E7-B61D369FE875}" ShortID="690163706"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4A3D9893-87B6-4B67-86DF-D14458D01004}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{9289445D-1BF0-4587-9652-C6426A7C4CBF}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_A_Pad_Metallic" ID="{22593563-1574-4DDF-8552-264FAA06CC3C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Pad_Metallic" ID="{5BC0C1DF-27D8-447A-A368-92BC78EBB573}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_A_1_Pan" ID="{FE23FE3D-2711-4D60-ABB6-0C7E1BD435D5}" ShortID="883158544">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_A_Pan" ID="{EB64BA33-C690-474E-A8BE-D9AA558E6041}" ShortID="1023224694">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_A_Pan.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="3">
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{FCCD467C-E9C9-43AC-B877-BF06623B9B5E}" ShortID="193640501">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{AD592B8E-C547-42A1-A35B-A17E9C0915E5}" ShortID="211888083">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{D73150C1-DC02-44D7-9DAA-092AB1072E29}" ShortID="883766949"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{B4B07363-5E88-48C3-9766-3067A6437A68}" ShortID="105337667">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{6D9AFBCE-D976-4874-9E7C-F3CF05E54BBB}" ShortID="858536680">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0104CD09-6613-4E81-AD1E-C82A1B9969FE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D8C7DC29-E04E-48CA-8C0F-593D87AA80CA}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_A_Pan" ID="{EB289221-6AD9-4AA1-9F5C-ABB4DC3C08ED}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Pan" ID="{EB64BA33-C690-474E-A8BE-D9AA558E6041}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_A_5_Sonosphère" ID="{5B306E66-165B-44A5-94AC-201D0831DBA5}" ShortID="1071013837">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_A_Sonosphère" ID="{952CA1DA-315A-41D2-971B-E102BB85C53D}" ShortID="661062577">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_A_Sonosphère.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{DEE53FDA-FDB3-4F40-A9DB-D358322DDB92}" ShortID="808607853"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{F348A3BA-C282-4D6C-BB76-DB023746D754}" ShortID="1016169954"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{1B7A349B-2A2F-4336-A287-A7418BD18C94}" ShortID="244152475"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{F50105F2-7A50-436F-AB34-73EC98B42C11}" ShortID="57330977">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-3"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{96C22309-46BA-4F97-8195-329CD1FE0BAC}" ShortID="764426367"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5F543A7E-E280-4700-A5B5-EDF14676EE58}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{EC20BEA5-269A-415F-932F-1CF96C9C077C}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_A_Sonosphère" ID="{82FF680E-2CA3-463E-8393-30F15A035578}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Sonosphère" ID="{952CA1DA-315A-41D2-971B-E102BB85C53D}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_A_4_Water_Pad" ID="{01359B15-B5FF-435D-9138-C8FAD454E0A0}" ShortID="726471871">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_A_Water_Pad" ID="{2B88A07C-64CA-419D-AA9C-247A093882F0}" ShortID="171089575">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_A_Water_Pad.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{A1DBF4BA-AE3D-468E-8E86-44A2FEAFBF7C}" ShortID="861700524"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{29EA0821-E681-4AC4-B3A0-93D27D65E8DA}" ShortID="194154651"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{15F1ADBE-E4EA-434A-9C59-9AD36BA8ABC0}" ShortID="909521394"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{CA305EFA-A22D-4069-A68A-38456A442A4B}" ShortID="676154223">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{496ABD2D-22CA-4613-B240-E948D1D2D343}" ShortID="245376271"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{06AB391A-3FAF-4940-AAC9-07E545497139}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{5EE1E2DC-288E-42A6-9597-36C2DEBC7C33}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_A_Water_Pad" ID="{4C90677E-F0D9-4B4F-AA37-7A698D4572FD}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Water_Pad" ID="{2B88A07C-64CA-419D-AA9C-247A093882F0}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -180,27 +442,61 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Music_Croissance_B" ID="{C48DA215-AC5B-45D0-9A1F-6462B95A1075}" ShortID="384695831">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_B_2_Mallet_Flux" ID="{9D309C7C-077E-420B-919D-03654958CAEC}" ShortID="744345134">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Music_Croissance_B" ID="{5F458002-0244-445F-99E0-E5FE9D51D294}" ShortID="1057130795">
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_B_Mallet_Flux" ID="{CD4F2500-C996-4749-994C-5F0F56DAC876}" ShortID="950671692">
 													<Language>SFX</Language>
-													<AudioFile>Music_Croissance_B.wav</AudioFile>
+													<AudioFile>Music_Croissance_Kill_Coral_B_Mallet_Flux.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{DFE32954-B5BF-427A-96C0-9E1DADC7B11A}" ShortID="1049158096">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{56D0E102-4CE8-4DEC-955C-F373BF7C9302}" ShortID="447193670">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{38DF01B3-3531-4DE0-A547-E4C1411F04D6}" ShortID="496314597"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{7727117D-3B2C-403E-B0EF-6F3A27C5FF52}" ShortID="735533022">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{79E96CDF-A414-4C35-9C1D-CFC99017CBCD}" ShortID="714396666"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{31131786-6516-42FA-A220-CCA9914D30A6}">
+												<MusicTransition Name="Root" ID="{46FC4125-EF63-4341-BE54-736B65FACFA9}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -208,76 +504,303 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{F1C5A3FC-1BA2-4C01-9A47-DA23E23A3AB6}">
+												<MusicTrackSequence Name="" ID="{82E902D0-6EC2-4600-BAC5-8106313F1E4D}">
 													<ClipList>
-														<MusicClip Name="Music_Croissance_B" ID="{B2AA7F47-A956-4CB3-B63E-5F809E91C67F}">
+														<MusicClip Name="Music_Croissance_Kill_Coral_B_Mallet_Flux" ID="{03C4E3B9-4884-4BEA-95CE-F3877DB0A87C}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="3824.06471183013"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="41876.6430738119"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="1316.4812942366"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="1379.17087967644"/>
-																<Property Name="PlayAt" Type="Real64" Value="-3824.06471183013"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="Music_Croissance_B" ID="{5F458002-0244-445F-99E0-E5FE9D51D294}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{166B9821-00E0-4B13-8075-83B4532FB6F5}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.82406</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>41.87664</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{28BF484D-81EC-4320-82DB-F6F72F2627E7}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.82406</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>41.87664</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{DC5EFBEB-23F8-4259-B030-C3BDDD10E18C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>3.82406</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>41.87664</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Mallet_Flux" ID="{CD4F2500-C996-4749-994C-5F0F56DAC876}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_B_3_Pad_Metallic" ID="{6DC01ACA-59C1-42DC-8C36-1C64EC415640}" ShortID="376896366">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_B_Pad_Metallic" ID="{45A73349-177A-4ABF-A645-DE8053F0BDA4}" ShortID="225181845">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_B_Pad_Metallic.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{7815AE55-EAE8-437A-8780-C98E8AA82E53}" ShortID="984819205"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{CA2A0E17-15BC-41A9-966F-17395A502A18}" ShortID="370257004">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{760AA9D0-DB96-4983-8B5D-252300AC70DD}" ShortID="379288730"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{B47FE797-B642-4D9D-AD99-77E94B497CD1}" ShortID="766597408">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{E8E26AD9-DBFC-4E03-B5F1-A507228F037C}" ShortID="412182840"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{69E7D346-CA20-4977-A539-F93BC1D4A633}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{54E4C9C2-DD8F-4D47-85D3-D5EBC749127A}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_B_Pad_Metallic" ID="{C40C3874-4A5D-4A1B-B343-D641CA3DBB6C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Pad_Metallic" ID="{45A73349-177A-4ABF-A645-DE8053F0BDA4}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_B_1_Pan" ID="{82DD0A9D-E999-4F2D-B0B0-2532A1CE1480}" ShortID="146040317">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_B_Pan" ID="{6EC21B0B-755A-492C-A1E5-2752EFC16699}" ShortID="592671692">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_B_Pan.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{AC821E86-8E32-4239-BE64-C4EEDCC2BB29}" ShortID="902342694">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{B0B1CDEC-16D7-4226-9007-FAFD83091D9D}" ShortID="735840552">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{AFD531CC-9F42-4F0D-AC8D-320E7E8B7D3A}" ShortID="476256964"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{49C5215D-F022-498A-8987-E93EF8A5123F}" ShortID="715269287">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{D19BA3EF-A293-48AD-989C-F17BBF0483B6}" ShortID="786756439">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{433E4DF0-A020-46F1-BF6C-8CBF140D12A9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{83069E13-2AC5-46AD-A1D6-AD871AD342C9}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_B_Pan" ID="{B6F0863F-E80B-4148-84D8-A80D2628FC12}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Pan" ID="{6EC21B0B-755A-492C-A1E5-2752EFC16699}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_B_5_Sonosphere" ID="{F3AA83EE-DC82-4BBD-B2A0-95984592C784}" ShortID="979858209">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_B_Sonosphere" ID="{ACB4A003-D9DE-4088-946F-6BB0891B665B}" ShortID="896771487">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_B_Sonosphere.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{92AF70F2-E195-4454-A8F5-E4FCA4A342A8}" ShortID="909769598"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{2C69CD6C-92AB-40F9-A0C3-75630777E541}" ShortID="293751186"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{7599B80D-9616-4DDD-ABEA-FD59B82D7430}" ShortID="594158325"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{939D1278-7B87-4A7F-B7C5-C059A49C4996}" ShortID="915188221">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-3"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{FA6970A1-00E3-4213-AF97-AC301427B46C}" ShortID="1059824969"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D5CF2F0D-DB3D-404A-909F-7596E9C74719}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{77D372BB-A068-4587-A647-6D75EA763C3E}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_B_Sonosphere" ID="{AC77BA20-9F04-4BCD-8A5D-10D9E0E7CD81}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Sonosphere" ID="{ACB4A003-D9DE-4088-946F-6BB0891B665B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_B_4_Water_Pad" ID="{90AEEBE6-6258-4617-B3BE-B359EBC3EE0F}" ShortID="241814772">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_B_Water_Pad" ID="{0046741B-D003-4FCF-8919-4EBC4990CCFA}" ShortID="841238621">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_B_Water_Pad.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{4506A6C9-8D20-4D6E-AE12-AC1020FCCE30}" ShortID="959279577"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{70B1EA40-3A40-498C-A3C7-5EF13E3D1700}" ShortID="522274397"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{827A0903-E768-4DE3-B51C-86C6DB090C93}" ShortID="552112083"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{30C34B98-C745-4792-9DA3-367A28AA32BE}" ShortID="691546935">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{5F649CB7-8883-4E5C-B10C-1CD76610EF99}" ShortID="351740156"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C9D728D2-8A32-42E3-8B5D-E49058F9AB6D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{FC45BA83-1CCF-4BED-8D0C-6236152A13C9}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_B_Water_Pad" ID="{DE95DB6A-161B-4BC7-BB2C-D179E3EF007F}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Water_Pad" ID="{0046741B-D003-4FCF-8919-4EBC4990CCFA}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -300,7 +823,7 @@
 								</MusicSegment>
 								<MusicSegment Name="Music_Croissance_C" ID="{FD231573-C1E1-4B20-9718-1A4F30A44F55}" ShortID="173792901">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="50000"/>
+										<Property Name="EndPosition" Type="Real64" Value="56000"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -311,27 +834,61 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Music_Croissance_C" ID="{E0A89139-5601-46C8-A2BB-6C165730DB23}" ShortID="526532538">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_C_2_Mallet_Flux" ID="{21FAC398-D1FF-452E-A1E9-3563E93497C2}" ShortID="274430896">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Music_Croissance_C" ID="{3F711DA9-8435-4C03-803E-D1579DBEA660}" ShortID="814515805">
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_C_Mallet_Flux" ID="{CCF890D6-862A-4197-9DCA-9DDC8A22D005}" ShortID="127708902">
 													<Language>SFX</Language>
-													<AudioFile>Music_Croissance_C.wav</AudioFile>
+													<AudioFile>Music_Croissance_Kill_Coral_C_Mallet_Flux.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{A8862C33-050A-4B4F-AD77-CF3F6FB5364F}" ShortID="606874385">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{9E8D6769-9E30-4345-A1AA-CB74F7D6931A}" ShortID="266148349">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{CA7B4147-2723-4957-863C-5184A300510D}" ShortID="851671574"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{C6C3736B-728D-43D2-BAD0-4B8B71C3FA5D}" ShortID="21804706">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{437AD2D5-7069-4AC1-9488-D834C5ECDC44}" ShortID="790694929"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{0F1EA2B2-97D0-48D4-B51D-21AE0FFE040B}">
+												<MusicTransition Name="Root" ID="{FD020258-A9BD-4477-851F-2D755278A8A0}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -339,76 +896,303 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{89EFB90C-2E03-43E8-9773-E88FA5C87705}">
+												<MusicTrackSequence Name="" ID="{354CE848-1582-468D-965D-2B7BEAD98EA1}">
 													<ClipList>
-														<MusicClip Name="Music_Croissance_C" ID="{58ABF3FF-899C-4A85-8D96-0DD26526B18A}">
+														<MusicClip Name="Music_Croissance_Kill_Coral_C_Mallet_Flux" ID="{B3D32D2E-BD22-4DDD-ABD9-5F1CF11F85C7}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="2679.47421638018"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="43781.5975733064"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="3134.47927199191"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="2881.69868554095"/>
-																<Property Name="PlayAt" Type="Real64" Value="-2679.47421638018"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="Music_Croissance_C" ID="{3F711DA9-8435-4C03-803E-D1579DBEA660}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{0E243F1A-1ED2-4F68-99B8-0353D4A8AA5C}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>2.67947</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>43.7816</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{1A2384B1-4C36-4F10-B5B8-66B35E461CF2}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>2.67947</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>43.7816</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{137A7C5A-78DE-4892-A518-7F6D3BE9DCD0}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>2.67947</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>43.7816</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Mallet_Flux" ID="{CCF890D6-862A-4197-9DCA-9DDC8A22D005}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_C_3_Pad_Metallic" ID="{431B6B4E-DED1-4242-86CB-1C323F641662}" ShortID="3146751">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_C_Pad_Metallic" ID="{B03E5CBF-3492-40DD-BC1B-FED598EAEA4F}" ShortID="43893638">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_C_Pad_Metallic.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{B7B97165-E37F-46C6-83D5-978AA76B9802}" ShortID="262487249"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{1FC6BA29-B23B-469C-93A6-166917DC5AE2}" ShortID="958987660">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{1B51B064-724B-4618-9931-93D6697D3639}" ShortID="648907852"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{1C3DCE42-2672-4AAF-91DD-08A9794A37C5}" ShortID="485829964">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{E836E4AA-35F9-455C-BE77-074902E4D426}" ShortID="345064308"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D06EDA82-D732-4E0B-92F3-B28C54204372}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{E946797F-8AC2-4719-8F02-2070CBAFCADC}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_C_Pad_Metallic" ID="{5CB78158-2BF2-4A4F-ACEC-3759431EC02C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Pad_Metallic" ID="{B03E5CBF-3492-40DD-BC1B-FED598EAEA4F}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_C_1_Pan" ID="{40B54F5A-43A3-4658-A3B4-0DB5BDDC1AA3}" ShortID="605252529">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_C_Pan" ID="{6F1CD882-BF0E-4CF7-951C-0DE098B8152C}" ShortID="179818253">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_C_Pan.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{0FAAD713-E2BE-4E65-8662-E8588F9D282C}" ShortID="400694279">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{9A3822CA-9F46-4577-B119-D074930E35FF}" ShortID="350460255">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{8CC7E7F4-65F8-422A-9D48-957393BA297A}" ShortID="857333006"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{DC1421CC-6F2A-43D6-AA45-F24E0984F263}" ShortID="1070302786">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{8B58D2F8-D9DE-44C3-A875-1F50BFDEF9CC}" ShortID="610543638">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6A587C94-C087-441E-B93A-11B392A0750C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6D20C38C-200B-432F-AC48-CB5D7A4BC89D}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_C_Pan" ID="{062B36AB-F257-4B44-A7DC-CBF58D273E82}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Pan" ID="{6F1CD882-BF0E-4CF7-951C-0DE098B8152C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_C_5_Sonosphere" ID="{4B76CA28-41A6-48FC-85B4-A5CAE508FB97}" ShortID="437655690">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_C_Sonosphere" ID="{45D431F6-1D0B-4968-8193-38D512BD170B}" ShortID="473964546">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_C_Sonosphere.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{131B8BF4-9B14-4A49-A5AD-326F67D1DA40}" ShortID="778645184"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{AF592330-56B5-43A0-87DF-079E732A16AE}" ShortID="306202688"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{15693D6D-8D6C-4792-944B-2E11413B245C}" ShortID="864124533"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{532EA92E-F470-4D63-91BA-BE5C348EA7FC}" ShortID="1019662806">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-3"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{72B6580C-41C2-40F1-975E-E11C4C70C0A0}" ShortID="579273807"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6D49D022-9245-457B-8ED8-FE14165C9ED6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{DF095A13-9DC9-4E09-8EA2-CF1DF8BAF149}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_C_Sonosphere" ID="{F98207C9-CFCD-4DF3-8906-EAFDE13F3CCF}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Sonosphere" ID="{45D431F6-1D0B-4968-8193-38D512BD170B}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_C_4_Water_Pad" ID="{1AE058D7-7E9A-4527-9D78-215256682163}" ShortID="426383637">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_C_Water_Pad" ID="{24776616-653D-41C4-AE52-91B973538D0D}" ShortID="358762917">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_C_Water_Pad.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{E51A745E-842B-49AE-97F8-0517BEB9593D}" ShortID="666043634"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{D077FF01-E8FC-4BB0-AAA4-F34ED6E68604}" ShortID="57658550"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{4834C463-A53F-4441-B8E7-19D6090D0A77}" ShortID="964745694"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{007B2B85-4EB8-469E-8F60-650BD40FBD9E}" ShortID="641089659">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{35CE56AD-C5F1-48AE-AEB0-D5E3315B31CE}" ShortID="968775301"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{70421E99-CB68-4208-9082-AF6776842A59}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{02F18A60-98D6-4D81-B311-1D77873C759D}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_C_Water_Pad" ID="{4C60850C-5D62-4F62-84FA-E3701A26DD90}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Water_Pad" ID="{24776616-653D-41C4-AE52-91B973538D0D}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -424,7 +1208,7 @@
 										<MusicCue Name="Exit Cue" ID="{47CCDF5F-0F6D-4662-B80D-2C782ABAFD8D}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="31243.6804853387"/>
+												<Property Name="TimeMs" Type="Real64" Value="34024.2669362993"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -442,27 +1226,61 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Music_Croissance_D" ID="{1632E1AA-22A6-4606-8CEC-CACC152865CA}" ShortID="619328459">
-											<PropertyList>
-												<Property Name="IsStreamingEnabled" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_D_2_Mallet_Flux" ID="{DBCAADF9-06CE-4378-A285-430D12D2734A}" ShortID="497082670">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Music_Croissance_D" ID="{F6943E90-4CC3-41DF-96DE-C30D12CF5058}" ShortID="884316753">
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_D_Mallet_Flux" ID="{F8A85A55-CD64-4C8E-A36F-E82F724B87A5}" ShortID="827508458">
 													<Language>SFX</Language>
-													<AudioFile>Music_Croissance_D.wav</AudioFile>
+													<AudioFile>Music_Croissance_Kill_Coral_D_Mallet_Flux.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{BB81CD19-777E-481E-9047-B5B837CA5621}" ShortID="383682429">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{AA17434A-4CDF-4546-80DE-CA612685BA9F}" ShortID="1064836182">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{A41A18DF-BAB1-4982-955F-BBCC3FAFE7AD}" ShortID="37009412"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{CE99F00A-5379-47B9-ABEF-B76FE9369E99}" ShortID="190621755">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{CA817AC8-D9ED-4DFD-A770-F56051D229F5}" ShortID="736788433"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{45A5BDF4-3AE9-4C8C-92A8-7A9D7E22E5E1}">
+												<MusicTransition Name="Root" ID="{055FA754-3CDB-4DDE-84E2-839A73B6AB77}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -470,76 +1288,303 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{F739F978-BACB-4904-9CD1-CAC487A15757}">
+												<MusicTrackSequence Name="" ID="{4062176C-1B58-4FD3-BB5F-20CC327C7AF9}">
 													<ClipList>
-														<MusicClip Name="Music_Croissance_D" ID="{C9AE1737-C872-43F1-81C7-372740C3FF6E}">
+														<MusicClip Name="Music_Croissance_Kill_Coral_D_Mallet_Flux" ID="{24C13289-6E06-46A0-95BE-244EBC280A70}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="5532.86147623863"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="55255.8139534883"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="3421.6380182002"/>
-																<Property Name="FadeOutDuration" Type="Real64" Value="4004.04448938321"/>
-																<Property Name="PlayAt" Type="Real64" Value="-5532.86147623863"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="Music_Croissance_D" ID="{F6943E90-4CC3-41DF-96DE-C30D12CF5058}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{88605790-C663-4560-BF9B-F7AA08F2B2F3}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>5.53286</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>55.25581</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{7E3E2C8B-0DA8-47B2-A843-DAD8A83E230D}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>5.53286</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>55.25581</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{4FC8897D-D46F-45B5-8FBA-F4046156C7E1}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>5.53286</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>55.25581</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Mallet_Flux" ID="{F8A85A55-CD64-4C8E-A36F-E82F724B87A5}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_D_3_Pad_Metallic" ID="{AA300FD8-E19A-488B-AE6D-8892B935EE9B}" ShortID="963802454">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_D_Pad_Metallic" ID="{03B1EF2A-537D-403F-8034-D78803A87AF4}" ShortID="1047806511">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_D_Pad_Metallic.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{F546895C-C86E-430D-A115-2332377D2E4A}" ShortID="945867871"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{2DFCAF8D-56AC-4F17-9C1F-C4A60FA0A117}" ShortID="955483964">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{A7F2E0FC-8B1B-4D4C-9615-9996AC70F9CD}" ShortID="278244580"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{E9EF0F5B-8766-41AD-963F-6B7A2823DBBF}" ShortID="786040259">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{6FFBDA97-4A6E-4772-A697-18FBDCA2D47F}" ShortID="540337077"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EC44733A-E62C-4609-8370-4D5DEBC1296D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{373F16CA-25F4-4FF0-A53F-9EF40707CDC9}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_D_Pad_Metallic" ID="{77B37B18-C7AE-480B-8B41-255BDEEEC25A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Pad_Metallic" ID="{03B1EF2A-537D-403F-8034-D78803A87AF4}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_D_1_Pan" ID="{96C050DC-8EDA-43F5-B04B-FC8996CD253D}" ShortID="310275535">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_D_Pan" ID="{59BBAE6F-A7C0-45B3-B5BC-95DDA8F1A9FF}" ShortID="738575729">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_D_Pan.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{05B851E3-EAFD-465C-8F40-F276D9D9055E}" ShortID="222863810">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{6B2036E8-8273-47B5-A907-45EFFA73D3AD}" ShortID="8140020">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{5B2E0492-CDB2-471D-B6BC-CF9BE96D7D64}" ShortID="650877443"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{6FE91527-1339-412B-8718-6302652E3F1D}" ShortID="688501794">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{8DBCD9FC-B9EC-47D9-8513-6DAB0DC67A1D}" ShortID="109362053">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AF566D6C-9268-45BD-9402-B8356F7D61F1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{8EAB51CB-0152-41C0-958D-F36D9E148D9D}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_D_Pan" ID="{9172D302-DF98-42C4-8D22-40329D5DEA78}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Pan" ID="{59BBAE6F-A7C0-45B3-B5BC-95DDA8F1A9FF}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_D_5_Sonosphere" ID="{7A87EB8A-21F0-4801-8606-6F121AA2C20E}" ShortID="261099965">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_D_Sonosphere" ID="{4146ECBE-DDFD-4752-90C2-2840821CED56}" ShortID="254715500">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_D_Sonosphere.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{AC176EF8-EE03-4D95-8C17-C28E26C567E5}" ShortID="652556130"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{1669B168-0F55-4957-AE81-68D2CA006670}" ShortID="582392104"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{12DB800A-1563-456A-BD33-0884FDAF70A6}" ShortID="903029528"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{1151FE41-F828-468C-8A49-E87E498273F3}" ShortID="516085425">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-3"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{7D26C0F7-0852-411A-B4E3-FE71ACB2CE1E}" ShortID="952803420"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C14D719D-74FF-40DE-A743-3CD6F1434AC1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AB8D95A7-7B9C-46A2-B43F-2340EA89C079}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_D_Sonosphere" ID="{F05AA069-B45C-4C94-9D74-4BFB7E13EF1B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Sonosphere" ID="{4146ECBE-DDFD-4752-90C2-2840821CED56}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+										<MusicTrack Name="Music_Croissance_Kill_Coral_D_4_Water_Pad" ID="{46FF7837-72E9-4A78-B94E-D0EF89CE931E}" ShortID="440961241">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Kill_Coral_D_Water_Pad" ID="{FF3C03F7-203B-452D-A859-0FF5DAC80F9D}" ShortID="987465526">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Kill_Coral_D_Water_Pad.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+														<CustomState Name="" ID="{EC85A393-1DE5-4E8A-88B1-30D9D65F3D22}" ShortID="516211359"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+														<CustomState Name="" ID="{5E36AE7B-CE89-4959-8BFC-3775697D7181}" ShortID="842189714"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+														<CustomState Name="" ID="{F27055B2-114F-4E20-98E6-E6A9C1CDACDF}" ShortID="970907144"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+														<CustomState Name="" ID="{51885287-5EC6-4B10-8122-B291BBD99993}" ShortID="849047048">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+														<CustomState Name="" ID="{C12D5CF5-3866-40E8-AF5C-FFD93E8D5774}" ShortID="683330124"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A57E428A-FBF5-4AAA-ADDF-296E756E8654}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D5B1481E-C643-4D86-92D9-0B93BA982572}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Kill_Coral_D_Water_Pad" ID="{22DDC63D-FEE6-4CDA-85C1-E88D9B41E975}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Water_Pad" ID="{FF3C03F7-203B-452D-A859-0FF5DAC80F9D}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>

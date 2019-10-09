@@ -28,7 +28,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}" WorkUnitID="{B491A2CE-5ACB-4609-8918-FB9210B4D19F}"/>
+									<ObjectRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}" WorkUnitID="{B491A2CE-5ACB-4609-8918-FB9210B4D19F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
