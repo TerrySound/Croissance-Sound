@@ -66,6 +66,18 @@
 							<ObjectRef Name="Ambiance_0" ID="{D37EA83F-5F9A-4C7E-8E03-D683DE7535D5}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Creatures_degradation_0" ID="{AA31702B-22A4-429D-93A6-5C8919D81090}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Creatures_degradation_1" ID="{C9345F65-2B1E-448E-8973-CDC37889B797}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -74,6 +86,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Contemplation" ID="{0434C8CF-3D12-4862-9148-21186F9FA54E}"/>
 						<CurrentStateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
