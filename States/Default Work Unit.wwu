@@ -10,6 +10,19 @@
 						<State Name="Kill_Coral" ID="{9267528F-8FC2-422F-92CE-1956E580DB4F}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{B4BBE416-B465-4EE8-8CC4-B23BE441C8BF}"/>
+						<State Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+						<State Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+						<State Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+						<State Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+						<State Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
