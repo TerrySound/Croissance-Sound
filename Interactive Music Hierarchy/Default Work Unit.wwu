@@ -5,11 +5,13 @@
 			<ChildrenList>
 				<MusicSwitchContainer Name="Music_Croissance" ID="{10F9652E-AE87-4A1B-A0A2-82C9CACD7893}" ShortID="1018990260">
 					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 						<Property Name="MaxSoundPerInstance" Type="int16">
 							<ValueList>
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -22,6 +24,8 @@
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Music_Contemplation" ID="{402FE59F-38C2-4661-80D3-1B1C349414F1}" ShortID="845397061">
 							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-16</Value>
@@ -39,7 +43,9 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_Croissance_A" ID="{3FF2DBF1-7E2F-40F9-AC88-FC597AFE2891}" ShortID="152195016">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="82000"/>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+										<Property Name="EndPosition" Type="Real64" Value="85148.0773861842"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -51,6 +57,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_A_2_Mallet_Flux" ID="{5EB5C7EE-57B4-4690-BD78-FD736ACEB62D}" ShortID="1053940965">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -116,17 +131,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_A_Mallet_Flux" ID="{BA9CB8C1-6742-438E-9561-7513A9844B0C}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="12479.8782095158"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="50968.9514790417"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="730.803678935608"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3710.23406228847"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Mallet_Flux" ID="{C986F636-D8D2-4323-A43D-EFAC5AC0E623}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{13197CA9-91BE-45AB-A782-E4033DC7C7CE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12.47988</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50.96895</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{69C4F1CA-4BE5-4775-BB05-8CEF324ADE50}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12.47988</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50.96895</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{19EF3965-FEF9-437C-88BF-F94AF387E877}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>12.47988</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50.96895</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_A_3_Pad_Metallic" ID="{B5B79CA8-21C2-4E34-895C-F5E2BCC2D4FD}" ShortID="290380164">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -188,17 +272,81 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_A_Pad_Metallic" ID="{22593563-1574-4DDF-8552-264FAA06CC3C}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="9163.15382050033"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="56646.7339076952"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="3654.01839467805"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4384.82207361366"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Pad_Metallic" ID="{5BC0C1DF-27D8-447A-A368-92BC78EBB573}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{BFFB7871-3164-4B8A-86CF-AC7D79850A31}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>9.16315</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.64673</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{1406C1FC-95F7-43B4-9901-741D29F009DF}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>9.16315</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.64673</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{AA7AC2C9-A8F3-4F79-8DD1-2E910139DD54}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>9.16315</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56.64673</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_A_1_Pan" ID="{FE23FE3D-2711-4D60-ABB6-0C7E1BD435D5}" ShortID="883158544">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -268,17 +416,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_A_Pan" ID="{EB289221-6AD9-4AA1-9F5C-ABB4DC3C08ED}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="14503.6422434913"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="53892.1661947843"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="1124.31335220863"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6689.66444564134"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Pan" ID="{EB64BA33-C690-474E-A8BE-D9AA558E6041}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{EA1071DA-3A0C-44A0-BD32-63C1BD4BEBF8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>14.50364</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>53.89217</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{3E3A24C1-FE9A-4F96-B18B-564437218571}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>14.50364</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>53.89217</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FC6FFFC4-7654-4141-B14F-26592C13C326}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>14.50364</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>53.89217</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_A_5_Sonosphère" ID="{5B306E66-165B-44A5-94AC-201D0831DBA5}" ShortID="1071013837">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -336,17 +553,85 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_A_Sonosphère" ID="{82FF680E-2CA3-463E-8393-30F15A035578}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="61087.7716489193"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="6296.15477236833"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="7364.25245696653"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Sonosphère" ID="{952CA1DA-315A-41D2-971B-E102BB85C53D}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{FBE5F712-4712-4ABF-8AD9-7B8DABC4FF1F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>61.08777</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{CA613BB6-6A04-43F5-B17F-AC5E9E2DA6B4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>61.08777</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{E835E340-9254-4653-8D4B-DFDBC906A6FE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>61.08777</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_A_4_Water_Pad" ID="{01359B15-B5FF-435D-9138-C8FAD454E0A0}" ShortID="726471871">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -404,11 +689,71 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_A_Water_Pad" ID="{4C90677E-F0D9-4B4F-AA37-7A698D4572FD}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="82000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="8544.78147678558"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="54735.4012089407"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="2810.78338052158"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="5340.48842299101"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A_Water_Pad" ID="{2B88A07C-64CA-419D-AA9C-247A093882F0}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{1BA853D7-E741-4622-BD6A-8D6564087452}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>8.54478</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>54.7354</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{26A2EC82-5F74-4562-A310-3B8C76FB19C1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>8.54478</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>54.7354</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{22C6477D-792E-473B-A9C2-41F7C8AFAB7C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>8.54478</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>54.7354</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -418,7 +763,7 @@
 									<CueList>
 										<MusicCue Name="Entry Cue" ID="{386A0864-FC85-41C1-B604-36AA907B5FF5}">
 											<PropertyList>
-												<Property Name="TimeMs" Type="Real64" Value="8455.00505561173"/>
+												<Property Name="TimeMs" Type="Real64" Value="12109.0234502898"/>
 											</PropertyList>
 										</MusicCue>
 										<MusicCue Name="Exit Cue" ID="{210E7064-6850-458D-A35E-A3B3D2BE7002}">
@@ -431,7 +776,9 @@
 								</MusicSegment>
 								<MusicSegment Name="Music_Croissance_B" ID="{F9773810-6930-4D85-981E-B946B88915CD}" ShortID="74091233">
 									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EndPosition" Type="Real64" Value="62000"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -443,6 +790,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_B_2_Mallet_Flux" ID="{9D309C7C-077E-420B-919D-03654958CAEC}" ShortID="744345134">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -508,17 +864,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_B_Mallet_Flux" ID="{03C4E3B9-4884-4BEA-95CE-F3877DB0A87C}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="11472.1941354904"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="35425.6825075834"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="501.516683518706"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2444.89383215369"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Mallet_Flux" ID="{CD4F2500-C996-4749-994C-5F0F56DAC876}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{B7DB1326-4095-42D8-85C6-D809D708BD7A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>11.47219</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.42568</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{3612EA6B-B2D1-48BA-9929-78CC13C119AC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>11.47219</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.42568</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FE167F5C-8AAB-4E3B-BB7F-7B88BCCD851D}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>11.47219</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.42568</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_B_3_Pad_Metallic" ID="{6DC01ACA-59C1-42DC-8C36-1C64EC415640}" ShortID="376896366">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -580,17 +1005,81 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_B_Pad_Metallic" ID="{C40C3874-4A5D-4A1B-B343-D641CA3DBB6C}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1441.86046511628"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="41381.1931243681"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="501.516683518705"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2444.89383215369"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Pad_Metallic" ID="{45A73349-177A-4ABF-A645-DE8053F0BDA4}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{D114BAD1-7526-4D4E-9E55-1EBA56B9E0DB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.44186</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41.38119</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{AD9586DC-7EBB-4DCF-AA27-A5B77A9010A7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.44186</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41.38119</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{AB709358-A1FD-4F95-83AB-1B18ED8AA413}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.44186</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>41.38119</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_B_1_Pan" ID="{82DD0A9D-E999-4F2D-B0B0-2532A1CE1480}" ShortID="146040317">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -660,17 +1149,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_B_Pan" ID="{B6F0863F-E80B-4148-84D8-A80D2628FC12}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="10531.8503538928"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="37995.9555106168"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="1253.79170879677"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2319.51466127401"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Pan" ID="{6EC21B0B-755A-492C-A1E5-2752EFC16699}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{0FEBA4AB-144E-417C-B0DC-95A5A6D44D68}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>10.53185</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>37.99596</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{D97D0A34-8192-4388-A44B-67A3F304FA19}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>10.53185</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>37.99596</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{6343BC96-2F3F-4709-BA8D-B4EA220DC504}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>10.53185</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>37.99596</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_B_5_Sonosphere" ID="{F3AA83EE-DC82-4BBD-B2A0-95984592C784}" ShortID="979858209">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -728,17 +1286,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_B_Sonosphere" ID="{AC77BA20-9F04-4BCD-8A5D-10D9E0E7CD81}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1692.61880687563"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="34548.0283114257"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="501.516683518706"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2946.4105156724"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Sonosphere" ID="{ACB4A003-D9DE-4088-946F-6BB0891B665B}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{51885233-B432-46AC-AB4D-535F51F2EC17}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.69262</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>34.54803</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{0920973C-69DC-4E65-A87A-DB6AB1F0B6FA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.69262</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>34.54803</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{9CD1C34B-E69A-43B7-95D1-A9861FAE23A2}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.69262</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>34.54803</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_B_4_Water_Pad" ID="{90AEEBE6-6258-4617-B3BE-B359EBC3EE0F}" ShortID="241814772">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -796,11 +1423,71 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_B_Water_Pad" ID="{DE95DB6A-161B-4BC7-BB2C-D179E3EF007F}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="60000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="4889.78766430738"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="40440.8493427705"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="501.516683518705"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1943.37714863498"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B_Water_Pad" ID="{0046741B-D003-4FCF-8919-4EBC4990CCFA}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{20FD101E-D549-4BDD-A6DB-95118BC34865}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.88979</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40.44085</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{1F4CC51C-6A0D-4820-9C02-47077CA6E1EB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.88979</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40.44085</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{0EAD730D-934E-4989-BA6A-B598056BFCC9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.88979</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>40.44085</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -810,20 +1497,22 @@
 									<CueList>
 										<MusicCue Name="Entry Cue" ID="{A8F762CD-FCE8-49C0-8953-B2A73EA0B5F1}">
 											<PropertyList>
-												<Property Name="TimeMs" Type="Real64" Value="4388.27098078868"/>
+												<Property Name="TimeMs" Type="Real64" Value="6143.57937310415"/>
 											</PropertyList>
 										</MusicCue>
 										<MusicCue Name="Exit Cue" ID="{22FBA232-8C6A-4312-911B-933CFF671C70}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="33288.1698685541"/>
+												<Property Name="TimeMs" Type="Real64" Value="28210.3134479272"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
 								<MusicSegment Name="Music_Croissance_C" ID="{FD231573-C1E1-4B20-9718-1A4F30A44F55}" ShortID="173792901">
 									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EndPosition" Type="Real64" Value="56000"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -835,6 +1524,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_C_2_Mallet_Flux" ID="{21FAC398-D1FF-452E-A1E9-3563E93497C2}" ShortID="274430896">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -900,17 +1598,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_C_Mallet_Flux" ID="{B3D32D2E-BD22-4DDD-ABD9-5F1CF11F85C7}">
 															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="16936.2992922144"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="303.336703741152"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Mallet_Flux" ID="{CCF890D6-862A-4197-9DCA-9DDC8A22D005}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{47F74E12-A537-4E69-BE67-EDBF75842638}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>16.9363</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{35FF1788-4273-484F-B7B2-B235B1F7D47B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>16.9363</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{AADF3F22-AC3A-485F-ADE4-2044DAB79565}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>16.9363</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_C_3_Pad_Metallic" ID="{431B6B4E-DED1-4242-86CB-1C323F641662}" ShortID="3146751">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -972,17 +1739,81 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_C_Pad_Metallic" ID="{5CB78158-2BF2-4A4F-ACEC-3759431EC02C}">
 															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="8746.20829120325"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="6926.18806875632"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Pad_Metallic" ID="{B03E5CBF-3492-40DD-BC1B-FED598EAEA4F}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{424B2018-5A87-4373-A115-3CF214D3813B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>8.74621</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{DA650085-F323-4DE4-BB4D-26F9E42612B2}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>8.74621</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{7D784ABD-28A5-4369-B8ED-0422EC4457B1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>8.74621</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_C_1_Pan" ID="{40B54F5A-43A3-4658-A3B4-0DB5BDDC1AA3}" ShortID="605252529">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1052,17 +1883,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_C_Pan" ID="{062B36AB-F257-4B44-A7DC-CBF58D273E82}">
 															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="6319.51466127402"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="5611.72901921132"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Pan" ID="{6F1CD882-BF0E-4CF7-951C-0DE098B8152C}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{B7E07DBD-9552-42AD-B1B8-27A02969A4F7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>6.31951</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{A2CFFD20-C3B7-47C5-96D1-852B12FAB160}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>6.31951</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{17CBA548-F9D4-4C43-8A5D-C39A4EEBCCBA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>6.31951</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_C_5_Sonosphere" ID="{4B76CA28-41A6-48FC-85B4-A5CAE508FB97}" ShortID="437655690">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1120,17 +2020,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_C_Sonosphere" ID="{F98207C9-CFCD-4DF3-8906-EAFDE13F3CCF}">
 															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="2275.02527805865"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="2173.91304347826"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Sonosphere" ID="{45D431F6-1D0B-4968-8193-38D512BD170B}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{33F9492C-6019-4923-AC52-B4C989DE23C1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.27503</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{3161C069-EB3B-4C5F-BDF4-111A1FB67C44}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.27503</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{5BB9BCF4-D8F2-40DE-8895-D2DDB2F90E7A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>2.27503</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_C_4_Water_Pad" ID="{1AE058D7-7E9A-4527-9D78-215256682163}" ShortID="426383637">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1188,11 +2157,71 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_C_Water_Pad" ID="{4C60850C-5D62-4F62-84FA-E3701A26DD90}">
 															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="6218.40242669364"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="2679.47421638018"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C_Water_Pad" ID="{24776616-653D-41C4-AE52-91B973538D0D}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{6B9ACCEB-B695-405A-A067-7A482A8FDD86}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>6.2184</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{097CBDFD-A92A-43FD-AA28-9A69BBA10997}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>6.2184</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{814717A6-CA84-4F75-B41D-6B5E0428A6B0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>6.2184</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>56</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1208,14 +2237,16 @@
 										<MusicCue Name="Exit Cue" ID="{47CCDF5F-0F6D-4662-B80D-2C782ABAFD8D}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="34024.2669362993"/>
+												<Property Name="TimeMs" Type="Real64" Value="37917.0879676441"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
 								<MusicSegment Name="Music_Croissance_D" ID="{C77980F5-3F14-45F5-95FE-D749ED5571B8}" ShortID="715705172">
 									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EndPosition" Type="Real64" Value="72000"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1227,6 +2258,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_D_2_Mallet_Flux" ID="{DBCAADF9-06CE-4378-A285-430D12D2734A}" ShortID="497082670">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1292,17 +2332,85 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_D_Mallet_Flux" ID="{24C13289-6E06-46A0-95BE-244EBC280A70}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="27128.4125379172"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3130.4347826087"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Mallet_Flux" ID="{F8A85A55-CD64-4C8E-A36F-E82F724B87A5}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{68FD2FFA-675A-4861-A266-2BE4DCCDAF16}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>27.12841</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{77F43FF6-64CC-4031-B4A8-9BBE30DC56D0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>27.12841</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{1EB0B6B9-BC10-4649-91A7-1F6470E33A13}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>27.12841</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_D_3_Pad_Metallic" ID="{AA300FD8-E19A-488B-AE6D-8892B935EE9B}" ShortID="963802454">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1364,17 +2472,81 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_D_Pad_Metallic" ID="{77B37B18-C7AE-480B-8B41-255BDEEEC25A}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="3785.64206268959"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="33680.485338726"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="800.808897876643"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="7789.6865520728"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Pad_Metallic" ID="{03B1EF2A-537D-403F-8034-D78803A87AF4}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{E8F00771-30D5-4195-B415-67D0E2AA0A17}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.78564</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>33.68049</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{809282D3-2BBD-437B-AFA4-F76367B51B80}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.78564</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>33.68049</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{2A5E1372-54C1-424D-8474-3C6DE9191B37}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.78564</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>33.68049</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_D_1_Pan" ID="{96C050DC-8EDA-43F5-B04B-FC8996CD253D}" ShortID="310275535">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1444,17 +2616,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_D_Pan" ID="{9172D302-DF98-42C4-8D22-40329D5DEA78}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="4513.65015166835"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="18246.7138523761"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="728.008088978768"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1965.62184024267"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Pan" ID="{59BBAE6F-A7C0-45B3-B5BC-95DDA8F1A9FF}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{D6254E46-C6DB-43B3-8D07-2F854DBD823F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.51365</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.24671</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{7A2F9023-0A76-4A06-B90E-5634F1AC4EA8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.51365</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.24671</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{B6673C71-6890-4A64-8E7A-62A8C68B8364}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.51365</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>18.24671</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_D_5_Sonosphere" ID="{7A87EB8A-21F0-4801-8606-6F121AA2C20E}" ShortID="261099965">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1512,17 +2753,86 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_D_Sonosphere" ID="{F05AA069-B45C-4C94-9D74-4BFB7E13EF1B}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1674.41860465116"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="50424.6713852377"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="1237.6137512639"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="10410.5156723964"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Sonosphere" ID="{4146ECBE-DDFD-4752-90C2-2840821CED56}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{8FEA6B7A-9688-420E-B10C-C973761D838F}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.67442</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50.42467</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{8790E8D7-B895-4EA8-9246-1BE45D671FE2}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.67442</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50.42467</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{E83AEBCC-C96A-4DAB-B4EF-F675B7A45057}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.67442</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>50.42467</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
 											</SequenceList>
 										</MusicTrack>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_D_4_Water_Pad" ID="{46FF7837-72E9-4A78-B94E-D0EF89CE931E}" ShortID="440961241">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1580,11 +2890,71 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_D_Water_Pad" ID="{22DDC63D-FEE6-4CDA-85C1-E88D9B41E975}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="62000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="3421.6380182002"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="35427.7047522751"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="1528.81698685541"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6552.0728008089"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_D_Water_Pad" ID="{FF3C03F7-203B-452D-A859-0FF5DAC80F9D}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{3A149B43-72F5-4F73-8289-9D19B0C6EF58}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.42164</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.4277</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{2CA0FE3E-CD47-4D76-A09D-03D139C3C23E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.42164</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.4277</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{5FEB3F4F-D5F0-488E-A123-90EC45FAE90E}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>3.42164</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>35.4277</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1600,7 +2970,7 @@
 										<MusicCue Name="Exit Cue" ID="{56845137-68D4-4996-B860-FBFCD5F3E46F}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="36546.0060667341"/>
+												<Property Name="TimeMs" Type="Real64" Value="32760.3640040445"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -1656,6 +3026,8 @@
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Music_Kill_Coral" ID="{B599EA39-40EE-4D01-9243-6E89EC613085}" ShortID="839663539">
 							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -1673,7 +3045,9 @@
 							<ChildrenList>
 								<MusicSegment Name="Music_Croissance_Kill_Coral_A" ID="{994EA29A-5396-4B5E-B13E-21058F39F4E4}" ShortID="110241582">
 									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EndPosition" Type="Real64" Value="82000"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1685,6 +3059,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_A" ID="{364352A0-2C06-4AB6-ABD0-34BFA180AD6B}" ShortID="562500184">
+											<PropertyList>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1709,11 +3092,71 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_A" ID="{A7E8475F-4CF2-451F-8ED6-9CD4D28D53EC}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="40000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1365.85365853659"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="37225.6097560975"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="554.878048780487"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1365.85365853658"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A" ID="{6FC00DA5-CC50-435D-AF1A-03582A639635}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{660E1488-D588-4B40-9994-628834866936}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.36585</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>37.22561</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{8F8B8C5F-1802-41F6-837C-DA12BF850616}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.36585</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>37.22561</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{20A24392-8687-41A0-8100-2F72BCB06BB0}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.36585</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>37.22561</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1736,7 +3179,9 @@
 								</MusicSegment>
 								<MusicSegment Name="Music_Croissance_Kill_Coral_B" ID="{3F01E6E9-64BF-4ADA-8E9A-254BF33C6FC0}" ShortID="547425327">
 									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EndPosition" Type="Real64" Value="54803.5714285714"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1748,6 +3193,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_B" ID="{ACFA341F-AEA0-4685-8177-451BF0D7DED8}" ShortID="974009892">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1772,11 +3224,71 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_B" ID="{FF34674E-69D2-4FF4-8AC3-44CAA1F416C0}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="54000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1446.42857142857"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="39160.7142857143"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="857.142857142855"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2250.00000000001"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B" ID="{A30FB42B-4A7F-49FA-81EC-43D7435A6F7F}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{C122FE44-A8CC-4F81-9D70-7FD70E7E9ADE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.44643</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>39.16071</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{54E2A301-BB50-4174-B4EC-3C0AEE7BB460}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.44643</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>39.16071</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{D7E5CB6D-EDE2-48D5-88D7-5F17FDDD5B7C}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.44643</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>39.16071</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1799,7 +3311,9 @@
 								</MusicSegment>
 								<MusicSegment Name="Music_Croissance_Kill_Coral_C" ID="{B231C2F0-44E2-4023-88FE-E00203976EDF}" ShortID="368452885">
 									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EndPosition" Type="Real64" Value="54000"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1811,6 +3325,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_C" ID="{4ED460AB-D022-4E8B-AA04-6C8884DEEB99}" ShortID="656715059">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
@@ -1835,11 +3356,71 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_C" ID="{680A4550-ABF7-4446-9B49-0EBE356BD3E4}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="54000"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1714.28571428571"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="38839.2857142858"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="1178.57142857143"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="3000"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C" ID="{61D90BE5-186A-4E49-9EEE-A5BB5C3350B3}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{A0135354-8F6A-4F00-AE7F-DAA9A85CD8B7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.71429</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38.83929</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{A14BC6DF-B43E-40A5-84CF-52D89E20E4C6}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.71429</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38.83929</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{3263DFF5-076F-430B-843B-DF3C457E40CE}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>1.71429</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>38.83929</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1862,7 +3443,9 @@
 								</MusicSegment>
 								<MusicSegment Name="Music_Croissance_Kill_Coral_Silence" ID="{8B1B4DCF-C884-4B4F-A2BE-2F61F3B23257}" ShortID="75668763">
 									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
 										<Property Name="EndPosition" Type="Real64" Value="54000"/>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1875,6 +3458,11 @@
 									<ChildrenList>
 										<MusicTrack Name="Music_Croissance_Kill_Coral_Silence" ID="{31F24575-F9BB-44C9-9510-DE778C0B92A2}" ShortID="32933998">
 											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
 														<Value>1</Value>
@@ -1916,11 +3504,70 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_C" ID="{8F9AEFB2-59F0-422E-BCC6-A01A642AB3BB}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="54000"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="15865.0793650794"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
-																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="317.460317460317"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C" ID="{C6723AC3-2B1F-4DE1-9F93-92B3B89C3476}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{E46D4DBB-A194-4436-AC02-F80A0F161EE8}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.86508</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{72A92DC1-7CAC-4C90-8374-A8B239E12F87}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.86508</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{9CB0AD0A-F167-453C-A07A-9DBE3F416FE4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>15.86508</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1932,7 +3579,7 @@
 										<MusicCue Name="Exit Cue" ID="{D98A761C-0073-4BD3-83A9-9234BA437554}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="15074.376205759"/>
+												<Property Name="TimeMs" Type="Real64" Value="9955.32858671138"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
