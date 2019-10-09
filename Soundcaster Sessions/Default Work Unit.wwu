@@ -50,6 +50,34 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Creatures" ID="{F81007B6-173F-4CD3-8053-1C31B6C2F3E4}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SideChain" ID="{AAF9EF2E-D756-4E9C-8D30-2D982C1A8EC4}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Ambiance" ID="{5BF8F61E-90C5-41EC-BF63-29F007608C83}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ambiance_0" ID="{D37EA83F-5F9A-4C7E-8E03-D683DE7535D5}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SideChain" ID="{AAF9EF2E-D756-4E9C-8D30-2D982C1A8EC4}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>
