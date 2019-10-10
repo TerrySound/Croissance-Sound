@@ -102,8 +102,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Kill_Coral" ID="{9267528F-8FC2-422F-92CE-1956E580DB4F}"/>
-						<CurrentStateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+						<CurrentStateRef Name="Contemplation" ID="{0434C8CF-3D12-4862-9148-21186F9FA54E}"/>
+						<CurrentStateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

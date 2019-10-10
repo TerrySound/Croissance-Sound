@@ -28,7 +28,7 @@
 								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3600,38 +3600,28 @@
 							</TransitionList>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{24D69267-C454-473D-B079-2DA005EB1562}" ShortID="66822629">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{4F2DCB46-3205-48BD-913D-E670CCE417CE}" ShortID="353986283">
+										<MusicPlaylistItem Name="" ID="{545ABA4F-2C0D-45CE-A245-D292A4074C22}" ShortID="996604711">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="Music_Croissance_Kill_Coral_Silence" ID="{8B1B4DCF-C884-4B4F-A2BE-2F61F3B23257}"/>
+											<SegmentRef Name="Music_Croissance_Kill_Coral_A" ID="{994EA29A-5396-4B5E-B13E-21058F39F4E4}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{6A52ED2E-B91F-4B26-9480-EB0A6D2D597A}" ShortID="111937671">
+										<MusicPlaylistItem Name="" ID="{4424F528-97F2-453C-8139-627A06E7292D}" ShortID="391265678">
 											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="0"/>
-												<Property Name="PlayMode" Type="int16" Value="2"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<ChildrenList>
-												<MusicPlaylistItem Name="" ID="{545ABA4F-2C0D-45CE-A245-D292A4074C22}" ShortID="996604711">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<SegmentRef Name="Music_Croissance_Kill_Coral_A" ID="{994EA29A-5396-4B5E-B13E-21058F39F4E4}"/>
-												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{4424F528-97F2-453C-8139-627A06E7292D}" ShortID="391265678">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<SegmentRef Name="Music_Croissance_Kill_Coral_B" ID="{3F01E6E9-64BF-4ADA-8E9A-254BF33C6FC0}"/>
-												</MusicPlaylistItem>
-												<MusicPlaylistItem Name="" ID="{1FD431A4-C6D1-4EFF-9605-8C6C99ACAFD8}" ShortID="382715350">
-													<PropertyList>
-														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-													</PropertyList>
-													<SegmentRef Name="Music_Croissance_Kill_Coral_C" ID="{B231C2F0-44E2-4023-88FE-E00203976EDF}"/>
-												</MusicPlaylistItem>
-											</ChildrenList>
+											<SegmentRef Name="Music_Croissance_Kill_Coral_B" ID="{3F01E6E9-64BF-4ADA-8E9A-254BF33C6FC0}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{1FD431A4-C6D1-4EFF-9605-8C6C99ACAFD8}" ShortID="382715350">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Croissance_Kill_Coral_C" ID="{B231C2F0-44E2-4023-88FE-E00203976EDF}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -4056,8 +4046,9 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{B323D964-B89C-49BB-A68B-F65051A58177}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="2.5"/>
-													<Property Name="FadeTime" Type="Real64" Value="5"/>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1.3"/>
+													<Property Name="FadeTime" Type="Real64" Value="1.7"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>

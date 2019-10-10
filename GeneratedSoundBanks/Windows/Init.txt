@@ -23,7 +23,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3878715091	Ocean_Verb			\Default Work Unit\Master Audio Bus\Ocean_Verb	
+
 Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	486966408	Wwise_Meter_(Custom)	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes

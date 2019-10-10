@@ -8,11 +8,13 @@
 						<RandomSequenceContainer Name="WaterSwirls_0" ID="{D13EA32D-6E7E-498C-8909-A539EF552881}" ShortID="504218855">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{5DC105AD-192D-4E3E-83C0-BF3185AF4FA0}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="18"/>
 												</PropertyList>
 											</Modifier>
@@ -40,7 +42,6 @@
 										<ModifierInfo>
 											<Modifier Name="" ID="{8D16AABB-6994-4735-92AC-C0CD44B95BA1}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="30"/>
 												</PropertyList>
 											</Modifier>
@@ -77,6 +78,11 @@
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-24</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
@@ -99,6 +105,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -376,6 +385,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-24</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -398,6 +412,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1442,7 +1459,7 @@
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>14</Value>
+										<Value>11</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -1484,6 +1501,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-21</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -1507,6 +1529,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2616,7 +2641,7 @@
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>35</Value>
+										<Value>25</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
@@ -2648,6 +2673,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-12</Value>
@@ -2670,6 +2700,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -3749,7 +3782,7 @@
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>59</Value>
+										<Value>37</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Pitch" Type="int32">
@@ -3781,6 +3814,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-15</Value>
@@ -3803,6 +3841,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -4847,6 +4888,16 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="WaterSwirls_1" ID="{E541593D-C0D6-4D8D-9F1A-2F6AEBEB8148}" ShortID="479170240">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{56271EC5-8A23-421E-9CC7-98845B8B3940}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="InitialDelay" Type="Real64">
 									<ValueList>
 										<Value>4</Value>
@@ -4880,6 +4931,11 @@
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-21</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -4902,6 +4958,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5142,11 +5201,13 @@
 						<RandomSequenceContainer Name="WaterSwirls_2" ID="{AF0AD7C6-F2EF-4070-AB30-40CDC66A746D}" ShortID="194226243">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{D00F42AE-F58C-4C0E-9622-29C710E190A0}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="15"/>
 												</PropertyList>
 											</Modifier>
@@ -5214,6 +5275,11 @@
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -5236,6 +5302,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5476,13 +5545,12 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>2</Value>
+										<Value>25</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{1DC8F395-75D5-4C64-83B4-165E4A7F2B02}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="10"/>
 												</PropertyList>
 											</Modifier>
@@ -5550,6 +5618,11 @@
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -5572,6 +5645,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5815,13 +5891,12 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>4</Value>
+										<Value>25</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{FCFF79F6-CA8E-4C87-9446-EE71F78AED9D}">
 												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="5"/>
 												</PropertyList>
 											</Modifier>
@@ -5889,6 +5964,11 @@
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-9</Value>
@@ -5911,6 +5991,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6358,6 +6441,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="CoralSwirl02" ID="{77847F44-20BB-4622-8C3A-D0409E56A3FE}" ShortID="877839206">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
@@ -6377,6 +6467,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="CoralSwirl03" ID="{A5BEECD9-6B3B-4E6B-BB3A-1ADE2095C2F7}" ShortID="1069859144">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>16</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
@@ -6436,7 +6538,7 @@
 								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>5</Value>
+										<Value>19</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -6478,6 +6580,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-9</Value>
@@ -6500,6 +6607,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="FX" ID="{61CE5E8E-7C73-4FF1-B61C-321C0A6CF077}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Ocean_Verb" ID="{6C288FA6-106F-4AFA-BAC6-24920CCEE7CC}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -7693,8 +7803,8 @@
 												<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
 												<CustomState Name="" ID="{6BCAD481-5785-48C9-B82C-3D94C2255E9B}" ShortID="322242897">
 													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="34"/>
-														<Property Name="Volume" Type="Real64" Value="-9"/>
+														<Property Name="Lowpass" Type="int16" Value="9"/>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
@@ -7702,8 +7812,8 @@
 												<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
 												<CustomState Name="" ID="{04F027DD-7E59-4C4E-9189-C061E3948C25}" ShortID="179108080">
 													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="47"/>
-														<Property Name="Volume" Type="Real64" Value="-16"/>
+														<Property Name="Lowpass" Type="int16" Value="13"/>
+														<Property Name="Volume" Type="Real64" Value="-8"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
@@ -7715,7 +7825,8 @@
 												<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
 												<CustomState Name="" ID="{6A3D5121-7520-4B27-BF1F-A0D40FCBC6E7}" ShortID="93485622">
 													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
+														<Property Name="Lowpass" Type="int16" Value="17"/>
+														<Property Name="Volume" Type="Real64" Value="-12"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
@@ -7723,8 +7834,8 @@
 												<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
 												<CustomState Name="" ID="{6C081837-EAC9-48D5-A6A5-A0C4D211AEC2}" ShortID="671723012">
 													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="16"/>
-														<Property Name="Volume" Type="Real64" Value="-6"/>
+														<Property Name="Lowpass" Type="int16" Value="7"/>
+														<Property Name="Volume" Type="Real64" Value="-4"/>
 													</PropertyList>
 												</CustomState>
 											</CustomState>
