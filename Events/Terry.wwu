@@ -38,7 +38,21 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambiance_0" ID="{D37EA83F-5F9A-4C7E-8E03-D683DE7535D5}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+									<ObjectRef Name="WaterAMB01" ID="{5C81265D-A1FA-4EE6-A195-6575F6E60729}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3B958623-9D73-4BB0-A327-1DDBA80B735E}" ShortID="605028407">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterAMB02" ID="{63A1E148-1E6C-479B-8C62-8FF0186B9353}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{ABA71D96-3266-44EB-AC98-0C0BD94B67A8}" ShortID="183425997">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterAMB03" ID="{8A783D7A-AAD3-45B3-ACA7-2BE98D31CD7B}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -134,7 +148,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Creatures_degradation_2" ID="{D4DE3A8E-8C42-4CEB-ACFA-37B772D25A58}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+									<ObjectRef Name="Creatures_degradation_2" ID="{24C6F11F-0915-49C2-B236-65C315153ED0}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -181,7 +195,7 @@
 						<Action Name="" ID="{1169086C-D6AE-4BCA-98C0-663FAC19B9F2}" ShortID="439953744">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Creatures_degradation_2" ID="{D4DE3A8E-8C42-4CEB-ACFA-37B772D25A58}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+									<ObjectRef Name="Creatures_degradation_2" ID="{24C6F11F-0915-49C2-B236-65C315153ED0}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -281,7 +295,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Creatures_degradation_2" ID="{D4DE3A8E-8C42-4CEB-ACFA-37B772D25A58}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+									<ObjectRef Name="Creatures_degradation_2" ID="{24C6F11F-0915-49C2-B236-65C315153ED0}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

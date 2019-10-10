@@ -63,10 +63,6 @@
 				<SoundcasterSession Name="Ambiance" ID="{5BF8F61E-90C5-41EC-BF63-29F007608C83}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Ambiance_0" ID="{D37EA83F-5F9A-4C7E-8E03-D683DE7535D5}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Music_Kill_Coral" ID="{14B7611E-D777-4470-8CDC-D71C4256D077}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
 							<Position X="0" Y="1"/>
 						</Module>
