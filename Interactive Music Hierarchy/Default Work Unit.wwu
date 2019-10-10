@@ -3092,9 +3092,8 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_A" ID="{A7E8475F-4CF2-451F-8ED6-9CD4D28D53EC}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="1365.85365853659"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="37225.6097560975"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="554.878048780487"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="6060.9756097561"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="1365.85365853658"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_A" ID="{6FC00DA5-CC50-435D-AF1A-03582A639635}"/>
@@ -3106,7 +3105,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.36585</XPos>
+																				<XPos>0</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3125,7 +3124,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.36585</XPos>
+																				<XPos>0</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3144,7 +3143,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.36585</XPos>
+																				<XPos>0</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3166,13 +3165,13 @@
 									<CueList>
 										<MusicCue Name="Entry Cue" ID="{096C344D-B6FE-4E6E-9A16-152FDCAEACC9}">
 											<PropertyList>
-												<Property Name="TimeMs" Type="Real64" Value="4481.70731707317"/>
+												<Property Name="TimeMs" Type="Real64" Value="6274.39024390244"/>
 											</PropertyList>
 										</MusicCue>
 										<MusicCue Name="Exit Cue" ID="{E1C5ABBD-B65B-4956-A617-D4AD805EAE22}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="34743.9024390244"/>
+												<Property Name="TimeMs" Type="Real64" Value="34274.3902439025"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -3224,9 +3223,9 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_B" ID="{FF34674E-69D2-4FF4-8AC3-44CAA1F416C0}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="1446.42857142857"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1017.85714285714"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="39160.7142857143"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="857.142857142855"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="4339.28571428571"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="2250.00000000001"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_B" ID="{A30FB42B-4A7F-49FA-81EC-43D7435A6F7F}"/>
@@ -3238,7 +3237,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.44643</XPos>
+																				<XPos>1.01786</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3257,7 +3256,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.44643</XPos>
+																				<XPos>1.01786</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3276,7 +3275,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.44643</XPos>
+																				<XPos>1.01786</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3356,10 +3355,11 @@
 													<ClipList>
 														<MusicClip Name="Music_Croissance_Kill_Coral_C" ID="{680A4550-ABF7-4446-9B49-0EBE356BD3E4}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="1714.28571428571"/>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="1285.71428571428"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="38839.2857142858"/>
-																<Property Name="FadeInDuration" Type="Real64" Value="1178.57142857143"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="5250"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="3000"/>
+																<Property Name="PlayAt" Type="Real64" Value="-1017.85714285714"/>
 															</PropertyList>
 															<AudioSourceRef Name="Music_Croissance_Kill_Coral_C" ID="{61D90BE5-186A-4E49-9EEE-A5BB5C3350B3}"/>
 															<PropertyCurveList>
@@ -3370,7 +3370,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.71429</XPos>
+																				<XPos>1.28571</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3389,7 +3389,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.71429</XPos>
+																				<XPos>1.28571</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3408,7 +3408,7 @@
 																		</PropertyList>
 																		<PointList>
 																			<Point>
-																				<XPos>1.71429</XPos>
+																				<XPos>1.28571</XPos>
 																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																			</Point>
@@ -3430,13 +3430,13 @@
 									<CueList>
 										<MusicCue Name="Entry Cue" ID="{624B1493-AEFB-4647-B33A-0232A6749B4C}">
 											<PropertyList>
-												<Property Name="TimeMs" Type="Real64" Value="4982.14285714286"/>
+												<Property Name="TimeMs" Type="Real64" Value="5892.85714285715"/>
 											</PropertyList>
 										</MusicCue>
 										<MusicCue Name="Exit Cue" ID="{D2DF7B95-712C-4567-91D2-6AB6BBB23257}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="27107.1428571429"/>
+												<Property Name="TimeMs" Type="Real64" Value="26089.2857142858"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
