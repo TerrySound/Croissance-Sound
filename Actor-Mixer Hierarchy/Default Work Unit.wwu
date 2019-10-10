@@ -7,7 +7,91 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="WaterSwirls_0" ID="{D13EA32D-6E7E-498C-8909-A539EF552881}" ShortID="504218855">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5DC105AD-192D-4E3E-83C0-BF3185AF4FA0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="18"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{43830B19-0C51-4148-B7A6-57969475C8F5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8D16AABB-6994-4735-92AC-C0CD44B95BA1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="30"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{73D6D949-A839-4716-A2EF-0C0E740CC966}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="581"/>
+													<Property Name="Min" Type="Real64" Value="-227"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{049F98DB-D31B-431E-9718-B4F736946E96}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{96D7238F-87A8-4711-96EE-2494C58436DB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -233,6 +317,22 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Creatures_degradation_0" ID="{AA31702B-22A4-429D-93A6-5C8919D81090}" ShortID="930518689">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1C419ADD-38B8-4D20-BDD7-B55D57161CAA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>5</Value>
@@ -263,13 +363,13 @@
 								</Property>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{14554B4F-822A-4A39-A9CD-12AD44D2B1EB}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -305,7 +405,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>25</Value>
+												<Value>16</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -344,7 +444,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>19</Value>
+												<Value>16</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
@@ -473,12 +573,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>14</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Weight" Type="Real64">
@@ -556,7 +651,22 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>7</Value>
+												<Value>6</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{43A494F1-FD04-40F4-A418-3231914614BC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="8"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Weight" Type="Real64">
@@ -587,14 +697,14 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>8</Value>
+												<Value>6</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{C5FBC198-DE34-45D2-9ADB-F460F7C65EF5}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="9"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -602,7 +712,7 @@
 										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
-												<Value>37</Value>
+												<Value>39</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -750,6 +860,16 @@
 								</Sound>
 								<Sound Name="Creature14" ID="{0ACA816F-D1CD-4980-8388-0982F1FADDA6}" ShortID="756530626">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>31</Value>
@@ -779,6 +899,16 @@
 								</Sound>
 								<Sound Name="Creature15" ID="{7C9D68CB-615B-4B49-B647-FB1EAB56C0F8}" ShortID="722758574">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>38</Value>
@@ -1294,6 +1424,22 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Creatures_degradation_1" ID="{C9345F65-2B1E-448E-8973-CDC37889B797}" ShortID="845684676">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3EC5CDF3-106F-42CE-9BA7-B379C905FC2D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>14</Value>
@@ -1324,13 +1470,13 @@
 								</Property>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6.5">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{31D94289-E1B4-4445-BE35-8F63202782DB}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
 													<Property Name="Min" Type="Real64" Value="-1"/>
 												</PropertyList>
 											</Modifier>
@@ -1388,6 +1534,26 @@
 								</Sound>
 								<Sound Name="Creature15" ID="{EA7D7702-E86A-4AE4-947A-4624624D629C}" ShortID="424475834">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CB6A8D25-BC3F-41DD-AF83-C7AE5A7504A2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>38</Value>
@@ -1646,6 +1812,26 @@
 								</Sound>
 								<Sound Name="Creature14" ID="{0FF270D8-2800-4F10-8384-C3226BF81B76}" ShortID="468900444">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F5C9B8AD-E4AE-4730-8637-CB3D3F3829CB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="6"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>31</Value>
@@ -2222,11 +2408,6 @@
 												<Value>14</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>37</Value>
@@ -2417,6 +2598,22 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3EE87C01-A942-4721-A9CA-87E2FC34E619}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>35</Value>
@@ -2443,7 +2640,7 @@
 											<Modifier Name="" ID="{D5F6DC65-103F-4067-8937-CE1D2B19A12E}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
 													<Property Name="Min" Type="Real64" Value="-1"/>
 												</PropertyList>
 											</Modifier>
@@ -2734,7 +2931,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>8</Value>
+												<Value>3</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -2870,6 +3067,16 @@
 								</Sound>
 								<Sound Name="Creature14" ID="{A270E1E9-80B8-48BA-AF3F-0AF533E2E6AA}" ShortID="1003889106">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>31</Value>
@@ -3113,12 +3320,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>14</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Weight" Type="Real64">
@@ -3524,6 +3726,22 @@
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="11"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A52417BD-1213-46C9-A13C-7F38A545BA8F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -4629,7 +4847,54 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="WaterSwirls_1" ID="{E541593D-C0D6-4D8D-9F1A-2F6AEBEB8148}" ShortID="479170240">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{234784F8-C1AE-4333-B780-D7516FE7DA28}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2E61EDEC-6C72-435B-A158-F93B9B0B4B80}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{74284F60-E4E1-466C-BC4C-12DF1D42A195}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -4876,7 +5141,94 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="WaterSwirls_2" ID="{AF0AD7C6-F2EF-4070-AB30-40CDC66A746D}" ShortID="194226243">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D00F42AE-F58C-4C0E-9622-29C710E190A0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="15"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FA9C4B05-BDB0-443A-87C0-CC9DAC135A73}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AAF54549-D3D7-4A9F-B8CD-554830F4050C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="22"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F751131A-30C6-4D33-839F-A23CBC354600}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="581"/>
+													<Property Name="Min" Type="Real64" Value="-606"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{143263FE-272B-47E3-B2FE-2268EF00CB80}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E2E5BEB2-3581-455D-B15C-EDC25F1607B5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5122,7 +5474,97 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="WaterSwirls_3" ID="{397583AD-0848-45C1-A589-42AB61F1B7F4}" ShortID="137791989">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1DC8F395-75D5-4C64-83B4-165E4A7F2B02}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5F70FFDA-27E1-473C-8026-E508383C97E6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{28049D6C-02D5-4305-828A-84F264A97487}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="23"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7E13C615-BBFA-4E42-8F97-F20EB71D1206}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="404"/>
+													<Property Name="Min" Type="Real64" Value="-429"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E9CD194F-42DE-47F8-A00D-968EBED6E802}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="6"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AD597C09-A4EA-4FAA-ACAB-477809F2FDCD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5371,7 +5813,97 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="WaterSwirls_4" ID="{18F61A41-11D5-4A5A-86FE-DEE899E8EE3A}" ShortID="775297337">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FCFF79F6-CA8E-4C87-9446-EE71F78AED9D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A9DC952F-8C65-44D4-B100-5AA8E77F35A5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>14</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{77C5481C-F2E6-47F0-A077-8F2D088DD395}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="22"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A812B8AF-E975-4A65-A27D-2B355EC3C45E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="455"/>
+													<Property Name="Min" Type="Real64" Value="-429"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AC0DD5D0-D2CA-4BE8-AF55-0F61462B776E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="7"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A22E1792-3000-4A3F-8AF0-CD07D68FA7BB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-6"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5887,14 +6419,14 @@
 						<RandomSequenceContainer Name="WaterAMB01" ID="{5C81265D-A1FA-4EE6-A195-6575F6E60729}" ShortID="1042357929">
 							<PropertyList>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5903,7 +6435,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -5986,14 +6518,14 @@
 						<RandomSequenceContainer Name="WaterAMB02" ID="{63A1E148-1E6C-479B-8C62-8FF0186B9353}" ShortID="654804346">
 							<PropertyList>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6002,7 +6534,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6078,14 +6610,14 @@
 						<RandomSequenceContainer Name="WaterAMB03" ID="{8A783D7A-AAD3-45B3-ACA7-2BE98D31CD7B}" ShortID="235836382">
 							<PropertyList>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6094,7 +6626,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -6128,6 +6660,22 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Creatures_degradation_2" ID="{24C6F11F-0915-49C2-B236-65C315153ED0}" ShortID="189705761">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CF0F2F39-6A5A-4AEC-84E0-93F04200DF3F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
 										<Value>5</Value>
@@ -6158,13 +6706,14 @@
 								</Property>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{F9B106F5-8ADD-4AEE-BB44-F1D923D496FF}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Min" Type="Real64" Value="-2"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -6372,12 +6921,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>14</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
+												<Value>5</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Weight" Type="Real64">
@@ -6493,14 +7037,14 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>8</Value>
+												<Value>7</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{4D7DEF54-6817-4363-8AFF-551B13095F33}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="9"/>
+															<Property Name="Max" Type="Real64" Value="7"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -6669,6 +7213,26 @@
 								</Sound>
 								<Sound Name="Creature14" ID="{993C5135-6077-487C-8BA8-DA8CB756C802}" ShortID="906546898">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{02BAF9BD-55BC-4A39-A7B5-74B6CAA18DAF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="11"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>31</Value>
@@ -6700,6 +7264,11 @@
 								</Sound>
 								<Sound Name="Creature15" ID="{CD695AFD-7B66-458E-B14A-8611C9A606E7}" ShortID="587865340">
 									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>38</Value>
@@ -6774,7 +7343,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>7</Value>
+												<Value>4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -6815,7 +7384,7 @@
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
-												<Value>3</Value>
+												<Value>4</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>

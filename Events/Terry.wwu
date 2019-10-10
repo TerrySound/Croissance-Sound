@@ -43,6 +43,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{3B958623-9D73-4BB0-A327-1DDBA80B735E}" ShortID="605028407">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WaterAMB02" ID="{63A1E148-1E6C-479B-8C62-8FF0186B9353}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
@@ -50,6 +53,9 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{ABA71D96-3266-44EB-AC98-0C0BD94B67A8}" ShortID="183425997">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WaterAMB03" ID="{8A783D7A-AAD3-45B3-ACA7-2BE98D31CD7B}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
@@ -352,20 +358,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{DDF8BBC4-7FD9-4A04-BDC2-42E554989BB7}" ShortID="727740856">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{7D76D796-5D47-4185-A2F7-11A230219953}" ShortID="274441837">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WaterSwirls_4" ID="{18F61A41-11D5-4A5A-86FE-DEE899E8EE3A}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{36090AEE-D293-4932-A974-71ED5A83DD33}" ShortID="1022253431">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -382,6 +374,18 @@
 						<Action Name="" ID="{A2E9D5A6-7FC5-4811-99F8-96261C22B101}" ShortID="561753099">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{26D1A281-914F-4997-AB3D-8DA265962EDD}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
 								<Property Name="FadeTime" Type="Real64" Value="3"/>
 								<Property Name="Scope" Type="int16" Value="1"/>
@@ -389,6 +393,47 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WaterSwirls_3" ID="{397583AD-0848-45C1-A589-42AB61F1B7F4}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DDF8BBC4-7FD9-4A04-BDC2-42E554989BB7}" ShortID="727740856">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B76D7E4A-8F05-42BD-BFF9-6859E05802E6}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7D76D796-5D47-4185-A2F7-11A230219953}" ShortID="274441837">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{62048256-4AC5-474F-A34B-BEF8CD6B769C}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_4" ID="{18F61A41-11D5-4A5A-86FE-DEE899E8EE3A}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -407,6 +452,19 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{172E81C0-B311-4899-BC94-3DAEECA1F5C5}" ShortID="559980966">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3DAAB5C0-E606-4B34-8946-7DE90C6C2BEB}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Creatures_degradation_0" ID="{AA31702B-22A4-429D-93A6-5C8919D81090}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
@@ -414,6 +472,19 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{B5E57F14-A7D6-40C1-BA2C-8B19470AEE14}" ShortID="300174941">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{895557FF-08D9-4CA2-9BCA-A2C49C72A9D8}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WaterSwirls_0" ID="{D13EA32D-6E7E-498C-8909-A539EF552881}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>

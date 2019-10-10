@@ -63,24 +63,36 @@
 				<SoundcasterSession Name="Ambiance" ID="{5BF8F61E-90C5-41EC-BF63-29F007608C83}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Music_Kill_Coral" ID="{14B7611E-D777-4470-8CDC-D71C4256D077}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
+							<ObjectRef Name="Music_Degradation_3" ID="{9584F68B-2E09-438E-9D42-63CC4CBD931C}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Creatures_degradation_0" ID="{AA31702B-22A4-429D-93A6-5C8919D81090}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="CoralBreak" ID="{D5FEC04B-AEA7-47F7-92FA-84E1690AF68F}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+							<ObjectRef Name="Music_Contemplation" ID="{336A3AA9-4AE1-4CD8-A4B8-F1DC443CE197}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Creatures_degradation_1" ID="{C9345F65-2B1E-448E-8973-CDC37889B797}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
-							<Position X="2" Y="0"/>
+							<ObjectRef Name="Music_Start" ID="{7AF99ACA-0721-4E8D-B756-DA2909427ED5}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
-							<Position X="3" Y="0"/>
+							<ObjectRef Name="Music_Degradation_0" ID="{6004936D-9E16-4FCA-B8B8-F56DD4AC8FD0}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Kill_Coral" ID="{14B7611E-D777-4470-8CDC-D71C4256D077}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Degradation_1" ID="{62EF86A8-7238-46EB-B55D-7285DDC056F4}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Degradation_2" ID="{C1A3F682-B204-4B02-A1AE-F74561F94EE6}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music_Degradation_4" ID="{B7FEC9DB-3538-46FD-AA37-70D6D4C039C1}" WorkUnitID="{95C6E637-6B62-4CB9-92E0-2D8A5A13AB82}"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

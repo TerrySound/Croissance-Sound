@@ -99,11 +99,11 @@
 			<Path>CROISSANCE.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2990463502" Name="Music_Contemplation" ObjectPath="\Events\Terry\Music_Contemplation" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1507659042" Name="Music_Degradation_0" ObjectPath="\Events\Terry\Music_Degradation_0" DurationType="OneShot" DurationMin="117.917175" DurationMax="196.512756"/>
-				<Event Id="1507659043" Name="Music_Degradation_1" ObjectPath="\Events\Terry\Music_Degradation_1" DurationType="OneShot" DurationMin="178.611969" DurationMax="257.670532"/>
-				<Event Id="1507659040" Name="Music_Degradation_2" ObjectPath="\Events\Terry\Music_Degradation_2" DurationType="OneShot" DurationMin="217.412201" DurationMax="305.840576"/>
-				<Event Id="1507659041" Name="Music_Degradation_3" ObjectPath="\Events\Terry\Music_Degradation_3" DurationType="OneShot" DurationMin="243.599869" DurationMax="360.678864"/>
-				<Event Id="1507659046" Name="Music_Degradation_4" ObjectPath="\Events\Terry\Music_Degradation_4" DurationType="OneShot" DurationMin="269.915527" DurationMax="439.977600"/>
+				<Event Id="1507659042" Name="Music_Degradation_0" ObjectPath="\Events\Terry\Music_Degradation_0" DurationType="OneShot" DurationMin="144.917175" DurationMax="227.512756"/>
+				<Event Id="1507659043" Name="Music_Degradation_1" ObjectPath="\Events\Terry\Music_Degradation_1" DurationType="OneShot" DurationMin="169.611969" DurationMax="300.670532"/>
+				<Event Id="1507659040" Name="Music_Degradation_2" ObjectPath="\Events\Terry\Music_Degradation_2" DurationType="OneShot" DurationMin="192.917175" DurationMax="347.512756"/>
+				<Event Id="1507659041" Name="Music_Degradation_3" ObjectPath="\Events\Terry\Music_Degradation_3" DurationType="OneShot" DurationMin="246.599869" DurationMax="391.678833"/>
+				<Event Id="1507659046" Name="Music_Degradation_4" ObjectPath="\Events\Terry\Music_Degradation_4" DurationType="OneShot" DurationMin="272.915527" DurationMax="446.977600"/>
 				<Event Id="41896295" Name="Music_Kill_Coral" ObjectPath="\Events\Terry\Music_Kill_Coral" DurationType="OneShot" DurationMin="3.948423" DurationMax="9.032309"/>
 				<Event Id="2199501515" Name="Music_Photo" ObjectPath="\Events\Terry\Music_Photo" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3725903807" Name="Music_Start" ObjectPath="\Events\Terry\Music_Start" DurationType="Infinite"/>
