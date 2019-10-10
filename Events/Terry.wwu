@@ -184,6 +184,58 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{A9DDA282-1B50-4AD8-AAEF-0E6260EE310C}" ShortID="702364524">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_3" ID="{5B166EEC-D692-4780-B1CC-AC8622544B2D}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{57667B32-C685-4A5C-8372-C037B62333C2}" ShortID="636939927">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_3" ID="{397583AD-0848-45C1-A589-42AB61F1B7F4}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CF592892-A92D-45BA-BFC5-2025B73E4BD8}" ShortID="1037456606">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5AD10827-D2B7-4DA7-AA08-DC812DA252EE}" ShortID="562017881">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_4" ID="{18F61A41-11D5-4A5A-86FE-DEE899E8EE3A}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Music_Degradation_2" ID="{C1A3F682-B204-4B02-A1AE-F74561F94EE6}">
@@ -225,19 +277,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{847CA35F-A52E-4421-91CC-0B0FF27228B4}" ShortID="789312750">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Creatures_degradation_3" ID="{5B166EEC-D692-4780-B1CC-AC8622544B2D}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{A182C866-9197-44CA-B57A-B4920A327866}" ShortID="459766996">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -251,6 +290,19 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{847CA35F-A52E-4421-91CC-0B0FF27228B4}" ShortID="789312750">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_3" ID="{5B166EEC-D692-4780-B1CC-AC8622544B2D}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{131FD2D4-441B-4930-9C1C-2948E6C1633B}" ShortID="865649312">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -261,6 +313,58 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WaterSwirls_3" ID="{397583AD-0848-45C1-A589-42AB61F1B7F4}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B889F4F2-2294-4B8D-985D-DBF386E0B9F0}" ShortID="919077768">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0ED76170-61D3-4DFD-B573-9086C260CAC8}" ShortID="900453517">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_4" ID="{18F61A41-11D5-4A5A-86FE-DEE899E8EE3A}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{360BF19B-DE2D-4837-BD40-8F7241898DEC}" ShortID="564863165">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_0" ID="{AA31702B-22A4-429D-93A6-5C8919D81090}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D67613A8-5F56-42B0-85F9-0015B017ACC9}" ShortID="333878162">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_0" ID="{D13EA32D-6E7E-498C-8909-A539EF552881}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -305,19 +409,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{031C8394-E809-43C5-84DF-CACEFB5AABDC}" ShortID="677781028">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="3"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{6C538EA5-A60D-48DA-BDAC-F7B66A3C1ECB}" ShortID="813008194">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -331,6 +422,19 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{031C8394-E809-43C5-84DF-CACEFB5AABDC}" ShortID="677781028">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{64EB9E57-90C7-4438-A8F8-6BE71B76B4C9}" ShortID="992357096">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -341,6 +445,58 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WaterSwirls_4" ID="{18F61A41-11D5-4A5A-86FE-DEE899E8EE3A}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E2C9AE4-9703-46CD-A8B5-33B05CE0BADA}" ShortID="933679606">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_0" ID="{AA31702B-22A4-429D-93A6-5C8919D81090}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E8EE091-C3E9-4F1C-A041-62330A8A9603}" ShortID="956503432">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_0" ID="{AA31702B-22A4-429D-93A6-5C8919D81090}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E2E05680-6D4A-42E4-BB1A-F5E4632E2874}" ShortID="23648744">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_1" ID="{C9345F65-2B1E-448E-8973-CDC37889B797}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02FC2A5E-580A-454D-97C5-D537A6677FD2}" ShortID="918233492">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_1" ID="{E541593D-C0D6-4D8D-9F1A-2F6AEBEB8148}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -437,6 +593,75 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{D55C59C2-41BA-4D9C-8548-7AFBC4BAA5A7}" ShortID="938916099">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_0" ID="{AA31702B-22A4-429D-93A6-5C8919D81090}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{82256301-9BB7-4C9C-BEB5-2BE00CFA24E7}" ShortID="472185092">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_0" ID="{D13EA32D-6E7E-498C-8909-A539EF552881}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{00E08EB3-A673-41F4-9872-B9CF04F8D4A1}" ShortID="511272269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_1" ID="{C9345F65-2B1E-448E-8973-CDC37889B797}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{42BABC4C-A328-4863-82F9-44B8794BA274}" ShortID="514336822">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_1" ID="{E541593D-C0D6-4D8D-9F1A-2F6AEBEB8148}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7CF628E4-ABDC-4592-9879-518FE19DAE92}" ShortID="487516413">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_2" ID="{24C6F11F-0915-49C2-B236-65C315153ED0}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A12BF6FA-2BF2-45D4-B078-8BD77896FD53}" ShortID="1056169617">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_2" ID="{AF0AD7C6-F2EF-4070-AB30-40CDC66A746D}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Music_Degradation_0" ID="{6004936D-9E16-4FCA-B8B8-F56DD4AC8FD0}">
@@ -514,6 +739,84 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WaterSwirls_1" ID="{E541593D-C0D6-4D8D-9F1A-2F6AEBEB8148}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F672CCF5-2766-41A9-BFEA-DA53B90795DC}" ShortID="67963002">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_2" ID="{24C6F11F-0915-49C2-B236-65C315153ED0}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E2E9DE45-645A-440B-A301-D2E9EB762C22}" ShortID="268445196">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_2" ID="{AF0AD7C6-F2EF-4070-AB30-40CDC66A746D}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{47F574BD-7A19-4008-BE16-BE292339A842}" ShortID="1034564836">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_3" ID="{5B166EEC-D692-4780-B1CC-AC8622544B2D}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F68B3F4C-298B-42BB-ACA1-E93F99F07DBE}" ShortID="906697950">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_3" ID="{397583AD-0848-45C1-A589-42AB61F1B7F4}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4BCE2BFD-BB11-4EE8-9F25-CDED4355DB9F}" ShortID="613037622">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creatures_degradation_4" ID="{A7807473-830C-42B4-BCC9-B429BF341CDB}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B3E7ED67-3E40-479B-BE93-AE770DE87509}" ShortID="553548947">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterSwirls_4" ID="{18F61A41-11D5-4A5A-86FE-DEE899E8EE3A}" WorkUnitID="{CBF346DF-FB75-4810-9A8B-93F509A48FA4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

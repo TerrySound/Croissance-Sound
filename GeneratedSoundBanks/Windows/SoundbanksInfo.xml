@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\ELE5d5ab19ee5329\Documents\GitHub\Croissance-Sound\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
