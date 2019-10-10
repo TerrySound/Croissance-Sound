@@ -103,7 +103,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Kill_Coral" ID="{9267528F-8FC2-422F-92CE-1956E580DB4F}"/>
-						<CurrentStateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+						<CurrentStateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

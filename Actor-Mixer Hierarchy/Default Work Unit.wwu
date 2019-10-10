@@ -6416,248 +6416,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="WaterAMB01" ID="{5C81265D-A1FA-4EE6-A195-6575F6E60729}" ShortID="1042357929">
-							<PropertyList>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-14</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="WaterAMB01" ID="{0C83CD29-D320-4371-BE35-4C6076106BAD}" ShortID="345637651">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="WaterAMB01" ID="{6A2F3ECE-8786-4450-9B50-1316BB5B8E79}" ShortID="566520689">
-											<Language>SFX</Language>
-											<AudioFile>WaterAMB01.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File Platform="Mac" ID="974137153"/>
-												<File Platform="Windows" ID="974137153"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
-												<CustomState Name="" ID="{6BCAD481-5785-48C9-B82C-3D94C2255E9B}" ShortID="322242897">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="34"/>
-														<Property Name="Volume" Type="Real64" Value="-9"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
-												<CustomState Name="" ID="{04F027DD-7E59-4C4E-9189-C061E3948C25}" ShortID="179108080">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="47"/>
-														<Property Name="Volume" Type="Real64" Value="-16"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
-												<CustomState Name="" ID="{8DDC3DED-61EA-4040-891C-9BAF3F536B54}" ShortID="1045172690"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
-												<CustomState Name="" ID="{6A3D5121-7520-4B27-BF1F-A0D40FCBC6E7}" ShortID="93485622">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-108"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
-												<CustomState Name="" ID="{6C081837-EAC9-48D5-A6A5-A0C4D211AEC2}" ShortID="671723012">
-													<PropertyList>
-														<Property Name="Lowpass" Type="int16" Value="16"/>
-														<Property Name="Volume" Type="Real64" Value="-6"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="WaterAMB01" ID="{6A2F3ECE-8786-4450-9B50-1316BB5B8E79}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="WaterAMB02" ID="{63A1E148-1E6C-479B-8C62-8FF0186B9353}" ShortID="654804346">
-							<PropertyList>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-15</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="WaterAMB02" ID="{A664499B-22B1-4717-B8EC-CD3A3D019D0C}" ShortID="502429328">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="WaterAMB02" ID="{5097ECB8-2870-4D8B-8082-F010BD7C72DF}" ShortID="167579905">
-											<Language>SFX</Language>
-											<AudioFile>WaterAMB02.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File Platform="Mac" ID="476420996"/>
-												<File Platform="Windows" ID="476420996"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<StateInfo>
-										<StateGroupList>
-											<StateGroupInfo>
-												<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
-											</StateGroupInfo>
-										</StateGroupList>
-										<CustomStateList>
-											<CustomState>
-												<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
-												<CustomState Name="" ID="{B6FDBF62-322A-48BE-A6EE-6CBB2DC4A041}" ShortID="475464818">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-3"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
-												<CustomState Name="" ID="{B15F430F-A109-4761-AB8D-05E41E32B485}" ShortID="414557808">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-7"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
-												<CustomState Name="" ID="{6DAB3E32-C965-4B2E-B4D2-56EC62ACB10A}" ShortID="463766170"/>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
-												<CustomState Name="" ID="{DD89C11C-9D04-4CED-AE10-356C56B7B75D}" ShortID="196193576">
-													<PropertyList>
-														<Property Name="Volume" Type="Real64" Value="-14"/>
-													</PropertyList>
-												</CustomState>
-											</CustomState>
-											<CustomState>
-												<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
-												<CustomState Name="" ID="{A0969FF9-340D-4361-90F7-8891E61B2B4B}" ShortID="768111721"/>
-											</CustomState>
-										</CustomStateList>
-									</StateInfo>
-									<ActiveSourceList>
-										<ActiveSource Name="WaterAMB02" ID="{5097ECB8-2870-4D8B-8082-F010BD7C72DF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="WaterAMB03" ID="{8A783D7A-AAD3-45B3-ACA7-2BE98D31CD7B}" ShortID="235836382">
-							<PropertyList>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-15</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="WaterAMB03" ID="{0C3127A4-E593-412C-B6DA-931D46F47886}" ShortID="216251683">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="WaterAMB03" ID="{8C2821BE-DEA7-4B20-B4C5-D54B10F94DE6}" ShortID="193523921">
-											<Language>SFX</Language>
-											<AudioFile>WaterAMB03.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File Platform="Mac" ID="499353437"/>
-												<File Platform="Windows" ID="499353437"/>
-											</ConvertedFileIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="WaterAMB03" ID="{8C2821BE-DEA7-4B20-B4C5-D54B10F94DE6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Creatures_degradation_2" ID="{24C6F11F-0915-49C2-B236-65C315153ED0}" ShortID="189705761">
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
@@ -7806,6 +7564,277 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<ActorMixer Name="Volume Control" ID="{5C851826-D161-4773-8088-52743859D9A9}" ShortID="628686979">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="WaterAMB03" ID="{8A783D7A-AAD3-45B3-ACA7-2BE98D31CD7B}" ShortID="235836382">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>34</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WaterAMB03" ID="{0C3127A4-E593-412C-B6DA-931D46F47886}" ShortID="216251683">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WaterAMB03" ID="{8C2821BE-DEA7-4B20-B4C5-D54B10F94DE6}" ShortID="193523921">
+											<Language>SFX</Language>
+											<AudioFile>WaterAMB03.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File Platform="Mac" ID="499353437"/>
+												<File Platform="Windows" ID="499353437"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="WaterAMB03" ID="{8C2821BE-DEA7-4B20-B4C5-D54B10F94DE6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="WaterAMB01" ID="{5C81265D-A1FA-4EE6-A195-6575F6E60729}" ShortID="1042357929">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-17</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WaterAMB01" ID="{0C83CD29-D320-4371-BE35-4C6076106BAD}" ShortID="345637651">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WaterAMB01" ID="{6A2F3ECE-8786-4450-9B50-1316BB5B8E79}" ShortID="566520689">
+											<Language>SFX</Language>
+											<AudioFile>WaterAMB01.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File Platform="Mac" ID="974137153"/>
+												<File Platform="Windows" ID="974137153"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+												<CustomState Name="" ID="{6BCAD481-5785-48C9-B82C-3D94C2255E9B}" ShortID="322242897">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="34"/>
+														<Property Name="Volume" Type="Real64" Value="-9"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+												<CustomState Name="" ID="{04F027DD-7E59-4C4E-9189-C061E3948C25}" ShortID="179108080">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="47"/>
+														<Property Name="Volume" Type="Real64" Value="-16"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+												<CustomState Name="" ID="{8DDC3DED-61EA-4040-891C-9BAF3F536B54}" ShortID="1045172690"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+												<CustomState Name="" ID="{6A3D5121-7520-4B27-BF1F-A0D40FCBC6E7}" ShortID="93485622">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+												<CustomState Name="" ID="{6C081837-EAC9-48D5-A6A5-A0C4D211AEC2}" ShortID="671723012">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="16"/>
+														<Property Name="Volume" Type="Real64" Value="-6"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="WaterAMB01" ID="{6A2F3ECE-8786-4450-9B50-1316BB5B8E79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="WaterAMB02" ID="{63A1E148-1E6C-479B-8C62-8FF0186B9353}" ShortID="654804346">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>26</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="WaterAMB02" ID="{A664499B-22B1-4717-B8EC-CD3A3D019D0C}" ShortID="502429328">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambience" ID="{3492A4A4-BFCA-4D98-B7CF-55ECA39BAADA}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="WaterAMB02" ID="{5097ECB8-2870-4D8B-8082-F010BD7C72DF}" ShortID="167579905">
+											<Language>SFX</Language>
+											<AudioFile>WaterAMB02.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File Platform="Mac" ID="476420996"/>
+												<File Platform="Windows" ID="476420996"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Degradation_2" ID="{BEA92B1D-4200-4023-A729-F5CFBB1CBEA5}"/>
+												<CustomState Name="" ID="{B6FDBF62-322A-48BE-A6EE-6CBB2DC4A041}" ShortID="475464818">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Degradation_3" ID="{9D096CFB-2380-40CE-852F-27698B8D59B4}"/>
+												<CustomState Name="" ID="{B15F430F-A109-4761-AB8D-05E41E32B485}" ShortID="414557808">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-7"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+												<CustomState Name="" ID="{6DAB3E32-C965-4B2E-B4D2-56EC62ACB10A}" ShortID="463766170"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
+												<CustomState Name="" ID="{DD89C11C-9D04-4CED-AE10-356C56B7B75D}" ShortID="196193576">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-14"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Degradation_1" ID="{597B096D-3462-4F8F-80DB-D189B85DEFE7}"/>
+												<CustomState Name="" ID="{A0969FF9-340D-4361-90F7-8891E61B2B4B}" ShortID="768111721"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="WaterAMB02" ID="{5097ECB8-2870-4D8B-8082-F010BD7C72DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -29,24 +29,24 @@ Custom State	ID	Name	State Group	Owner		Notes
 	8140020	Degradation_3	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_D\Music_Croissance_Kill_Coral_D_1_Pan		
 	21804706	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_C\Music_Croissance_Kill_Coral_C_2_Mallet_Flux		
 	57330977	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_A\Music_Croissance_Kill_Coral_A_5_Sonosphère		
-	93485622	Degradation_4	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB01\WaterAMB01		
+	93485622	Degradation_4	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB01\WaterAMB01		
 	105337667	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_A\Music_Croissance_Kill_Coral_A_1_Pan		
 	109362053	Degradation_1	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_D\Music_Croissance_Kill_Coral_D_1_Pan		
-	179108080	Degradation_3	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB01\WaterAMB01		
+	179108080	Degradation_3	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB01\WaterAMB01		
 	190621755	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_D\Music_Croissance_Kill_Coral_D_2_Mallet_Flux		
 	193640501	Degradation_2	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_A\Music_Croissance_Kill_Coral_A_1_Pan		
-	196193576	Degradation_4	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB02\WaterAMB02		
+	196193576	Degradation_4	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB02\WaterAMB02		
 	211888083	Degradation_3	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_A\Music_Croissance_Kill_Coral_A_1_Pan		
 	222863810	Degradation_2	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_D\Music_Croissance_Kill_Coral_D_1_Pan		
 	266148349	Degradation_3	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_C\Music_Croissance_Kill_Coral_C_2_Mallet_Flux		
-	322242897	Degradation_2	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB01\WaterAMB01		
+	322242897	Degradation_2	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB01\WaterAMB01		
 	350460255	Degradation_3	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_C\Music_Croissance_Kill_Coral_C_1_Pan		
 	370257004	Degradation_3	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_B\Music_Croissance_Kill_Coral_B_3_Pad_Metallic		
 	383682429	Degradation_2	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_D\Music_Croissance_Kill_Coral_D_2_Mallet_Flux		
 	400694279	Degradation_2	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_C\Music_Croissance_Kill_Coral_C_1_Pan		
-	414557808	Degradation_3	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB02\WaterAMB02		
+	414557808	Degradation_3	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB02\WaterAMB02		
 	447193670	Degradation_3	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_B\Music_Croissance_Kill_Coral_B_2_Mallet_Flux		
-	475464818	Degradation_2	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB02\WaterAMB02		
+	475464818	Degradation_2	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB02\WaterAMB02		
 	485829964	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_C\Music_Croissance_Kill_Coral_C_3_Pad_Metallic		
 	500787572	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_A\Music_Croissance_Kill_Coral_A_2_Mallet_Flux		
 	516085425	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_D\Music_Croissance_Kill_Coral_D_5_Sonosphere		
@@ -54,7 +54,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	610543638	Degradation_1	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_C\Music_Croissance_Kill_Coral_C_1_Pan		
 	615373192	Degradation_3	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_A\Music_Croissance_Kill_Coral_A_3_Pad_Metallic		
 	641089659	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_C\Music_Croissance_Kill_Coral_C_4_Water_Pad		
-	671723012	Degradation_1	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB01\WaterAMB01		
+	671723012	Degradation_1	Music_Degradation	\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB01\WaterAMB01		
 	676154223	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_A\Music_Croissance_Kill_Coral_A_4_Water_Pad		
 	688501794	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_D\Music_Croissance_Kill_Coral_D_1_Pan		
 	691546935	Degradation_4	Music_Degradation	\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_B\Music_Croissance_Kill_Coral_B_4_Water_Pad		
@@ -98,11 +98,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	152365135	Music_Croissance_Photo_A	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Music_Croissance_Photo_A_C42B8C3C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Photo\Music_Croissance_Photo_A\Music_Croissance_Photo_A		1802909
 	153640727	Creature07	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Creature07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Creatures_degradation_1\Creature07		150579
 	163329861	Creature12	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Creature12_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Creatures_degradation_1\Creature12		33362
-	167579905	WaterAMB02	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterAMB02_C42B8C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB02\WaterAMB02		1722787
+	167579905	WaterAMB02	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterAMB02_C42B8C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB02\WaterAMB02		1722787
 	175690109	WaterSwirl01	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterSwirl01_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterSwirls_1\WaterSwirl01		39690
 	177525838	CoralSwirl02	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\CoralSwirl02_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\CoralSwirl\CoralSwirl02		210340
 	179818253	Music_Croissance_Kill_Coral_C_1_Pan	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Music_Croissance_Kill_Coral_C_Pan_C42B8C3C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_C\Music_Croissance_Kill_Coral_C_1_Pan		956944
-	193523921	WaterAMB03	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterAMB03_C42B8C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB03\WaterAMB03		2480798
+	193523921	WaterAMB03	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterAMB03_C42B8C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB03\WaterAMB03		2480798
 	193600240	Creature23	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Creature23_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Creatures_degradation_1\Creature23		35450
 	201250756	WaterSwirl08	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterSwirl08_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterSwirls_1\WaterSwirl08		79499
 	204679090	Music_Croissance_Photo_B	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Music_Croissance_Photo_B_C42B8C3C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Photo\Music_Croissance_Photo_B\Music_Croissance_Photo_B		1784439
@@ -123,7 +123,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	474455494	WaterSwirl07	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterSwirl07_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterSwirls_1\WaterSwirl07		77881
 	534039972	CoralBreak01	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\CoralBreak01_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\CoralBreak\CoralBreak01		89038
 	542266255	Creature13	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Creature13_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Creatures_degradation_1\Creature13		44634
-	566520689	WaterAMB01	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterAMB01_C42B8C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\WaterAMB01\WaterAMB01		912141
+	566520689	WaterAMB01	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\WaterAMB01_C42B8C3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Volume Control\WaterAMB01\WaterAMB01		912141
 	592671692	Music_Croissance_Kill_Coral_B_1_Pan	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Music_Croissance_Kill_Coral_B_Pan_C42B8C3C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_B\Music_Croissance_Kill_Coral_B_1_Pan		1013052
 	616645992	Creature21	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Creature21_66C02B12.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Creatures_degradation_1\Creature21		41914
 	738575729	Music_Croissance_Kill_Coral_D_1_Pan	C:\Users\Thomas\Documents\Personal\Education\CNAM Enjmin 1\Croissance\Croissance-Sound\.cache\Android\SFX\Music_Croissance_Kill_Coral_D_Pan_C42B8C3C.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Croissance\Music_Contemplation\Music_Croissance_D\Music_Croissance_Kill_Coral_D_1_Pan		609152
