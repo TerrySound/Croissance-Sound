@@ -3775,6 +3775,255 @@
 								</MusicSegment>
 							</ChildrenList>
 						</Folder>
+						<MusicPlaylistContainer Name="Music_Photo" ID="{94B09838-2E4D-4795-82D2-DC7521460FB7}" ShortID="601007000">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Music_Croissance_Photo_A" ID="{4CB27660-6555-4028-A1BA-0C8E2D76726D}" ShortID="453863414">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="42000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Croissance_Photo_A" ID="{721320BF-0084-42AD-B71F-56F05433524D}" ShortID="588180812">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Photo_A" ID="{5B00A470-2ABF-4E0D-BBA4-AAC1BE333947}" ShortID="152365135">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Photo_A.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D9FB3CA7-A86B-4F77-8E50-5D4BDD50C2D5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{5FBC7380-C8EA-4F9E-BE27-D0A495B27E1A}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Photo_A" ID="{CBA38043-0695-416E-82FE-5FFC21B35906}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="42000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Photo_A" ID="{5B00A470-2ABF-4E0D-BBA4-AAC1BE333947}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{E8F438C8-91C8-47A0-8702-446EC647F276}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="8272.72727272727"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{FBA28495-F282-4CF4-86FA-BA91E7D0AF03}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="35000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Music_Croissance_Photo_B" ID="{DC26BFD1-EC30-417B-BB59-9466D4156995}" ShortID="569818476">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="48000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Croissance_Photo_B" ID="{7FABB43D-96E4-4DFD-A178-558393FDFAFE}" ShortID="250763367">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Photo_B" ID="{DBA1D185-90F6-4F54-A115-D7EA474B5D1C}" ShortID="204679090">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Photo_B.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{613D264D-3BE6-4B43-B07B-C52CC2CC8F79}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4B9F08AE-B3C1-43F7-846A-6DF5A148E24B}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Photo_B" ID="{C9608217-C874-413A-B5E7-BD800B8F4B92}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="48000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Photo_B" ID="{DBA1D185-90F6-4F54-A115-D7EA474B5D1C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{0B3C759B-45DB-47B0-8BAF-B17929F19128}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="6285.71428571429"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{B93A6B73-9E8F-4565-9BF8-64F80672F38C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="32779.2207792208"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="Music_Croissance_Photo_C" ID="{7831AF41-0A82-4258-B201-943C7371727B}" ShortID="407527629">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="44000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A09A67BA-FC65-4C45-96CC-F755E574570D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Croissance_Photo_C" ID="{14594953-39C1-41C2-A38F-193B6B39707C}" ShortID="295856174">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AD223918-78F3-434E-B179-D4B1DF801CC5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Croissance_Photo_C" ID="{74F7807F-04C3-4F5C-B0B5-502185E2E43F}" ShortID="844420045">
+													<Language>SFX</Language>
+													<AudioFile>Music_Croissance_Photo_C.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C3F2392F-7081-450A-BBAE-862DBD54C0C9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2E69D74E-2D31-4CC4-8A97-E2CC58B9A342}">
+													<ClipList>
+														<MusicClip Name="Music_Croissance_Photo_C" ID="{85304CC7-111C-4B49-9B9C-5C4E112A9AE8}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="44000"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Croissance_Photo_C" ID="{74F7807F-04C3-4F5C-B0B5-502185E2E43F}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{ABD648DB-C512-49DB-B73D-0DBA7CE9D8E7}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="8761.90476190476"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{8261CCC2-274F-49FA-B305-769BC09CD7D2}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="31238.0952380952"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D46565EC-ED02-43B9-8532-4E46C9931A88}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{D4C74BC8-5334-4025-AEB8-A7755767F4E4}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{55B8629B-B30C-40D8-A560-E70E7780C124}" ShortID="123117722">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{C2FAC1DB-9C69-4BE9-B129-78E9539649CE}" ShortID="529997401">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Croissance_Photo_A" ID="{4CB27660-6555-4028-A1BA-0C8E2D76726D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6968F20D-8A93-4382-8FE0-FAC5AE0122FC}" ShortID="991864148">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Croissance_Photo_B" ID="{DC26BFD1-EC30-417B-BB59-9466D4156995}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A0A962B2-A434-40D2-BE13-C8853C5AEDCD}" ShortID="587364529">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Music_Croissance_Photo_C" ID="{7831AF41-0A82-4258-B201-943C7371727B}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{D7D275C4-75F8-4E86-B6CD-63DF5E412D05}">
@@ -3876,6 +4125,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Music_Kill_Coral" ID="{B599EA39-40EE-4D01-9243-6E89EC613085}" WorkUnitID="{5459A4EC-625D-47D4-90F5-62EB236408D7}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Photo" ID="{FEA303D9-0FB0-4889-AC3F-D3B209DE235B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Music_Photo" ID="{94B09838-2E4D-4795-82D2-DC7521460FB7}" WorkUnitID="{5459A4EC-625D-47D4-90F5-62EB236408D7}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

@@ -8,6 +8,7 @@
 						<State Name="None" ID="{661F99A7-F02E-405F-A34C-FFC6482C29B9}"/>
 						<State Name="Contemplation" ID="{0434C8CF-3D12-4862-9148-21186F9FA54E}"/>
 						<State Name="Kill_Coral" ID="{9267528F-8FC2-422F-92CE-1956E580DB4F}"/>
+						<State Name="Photo" ID="{FEA303D9-0FB0-4889-AC3F-D3B209DE235B}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Music_Degradation" ID="{FFCE9929-4C83-4CE9-BCD5-2B5945F68F54}">

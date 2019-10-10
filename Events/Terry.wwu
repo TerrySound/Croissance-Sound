@@ -404,6 +404,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Music_Photo" ID="{247EEA01-BA27-446C-8660-7238E6EFA92E}">
+					<ChildrenList>
+						<Action Name="" ID="{4555A2BD-DBD2-4868-8620-20B62E2A65FD}" ShortID="920953310">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Photo" ID="{FEA303D9-0FB0-4889-AC3F-D3B209DE235B}" WorkUnitID="{B491A2CE-5ACB-4609-8918-FB9210B4D19F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

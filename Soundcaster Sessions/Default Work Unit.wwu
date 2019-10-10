@@ -45,7 +45,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Kill_Coral" ID="{9267528F-8FC2-422F-92CE-1956E580DB4F}"/>
+						<CurrentStateRef Name="Photo" ID="{FEA303D9-0FB0-4889-AC3F-D3B209DE235B}"/>
 						<CurrentStateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
