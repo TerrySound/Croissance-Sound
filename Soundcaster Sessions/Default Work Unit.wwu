@@ -41,12 +41,12 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_SideChain" ID="{AAF9EF2E-D756-4E9C-8D30-2D982C1A8EC4}"/>
-							<Value>50</Value>
+							<Value>-4.20865704772475</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Contemplation" ID="{0434C8CF-3D12-4862-9148-21186F9FA54E}"/>
-						<CurrentStateRef Name="Degradation_0" ID="{445E1FC4-1A81-4805-98D8-36BBE25741C8}"/>
+						<CurrentStateRef Name="Degradation_4" ID="{4CF64B20-2C0D-4ABC-93EC-93910E734676}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

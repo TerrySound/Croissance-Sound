@@ -27,6 +27,16 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise_Meter_(Custom)" ID="{7AF11F6C-45D2-4D1F-AF01-9081044270EE}" ShortID="486966408" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">											<PluginData>
+	<GameParameter Name="RTPC_SideChain" ID="{AAF9EF2E-D756-4E9C-8D30-2D982C1A8EC4}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 						</Bus>
 						<Bus Name="Music" ID="{32CC7183-0EA4-4918-9261-AD1A157A525D}">
 							<PropertyList>
@@ -34,6 +44,49 @@
 									<ValueList>
 										<Value>12546</Value>
 									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EA7C71FB-CDE7-418B-BAA5-7466F3DB62EC}" ShortID="548583649">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_SideChain" ID="{AAF9EF2E-D756-4E9C-8D30-2D982C1A8EC4}" WorkUnitID="{90C4FF37-ACDD-4BEF-B61A-9684D151B3F3}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{ECF0F810-44E9-4602-9E69-996875A404C1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-25</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>-12.46615</XPos>
+														<YPos>-1</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>-6.01998</XPos>
+														<YPos>-2</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-3.20363</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 						</Bus>
